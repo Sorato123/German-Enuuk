@@ -1,0 +1,5642 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enuuk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-05 11:24+0100\n"
+"PO-Revision-Date: 2012-01-05 12:45+0100\n"
+"Last-Translator: Markus Gauwatz <markus.gauwatz@cancom.de>\n"
+"Language-Team: Markus Gauwatz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: C:\\wamp\\www\\auction\\\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: class\n"
+"X-Poedit-SearchPath-1: themes\n"
+
+#: class/BannedEmail.php:35
+msgid "Invalid email address."
+msgstr "Ungültige E-Mail-Adresse."
+
+#: class/BannedEmail.php:83
+#, php-format
+msgid "Email %s, is already in the banned email list."
+msgstr "Die Email %s ist bereits auf der gebannten liste."
+
+#: class/BannedWord.php:35
+msgid "Please enter a valid word."
+msgstr "Bitte geben Sie ein gültiges Wort ein."
+
+#: class/Banner.php:52
+msgid "Please specify a valid type"
+msgstr "Bitte geben Sie einen gültigen Typ an."
+
+#: class/Banner.php:58
+msgid "Please enter a valid url."
+msgstr "Bitte geben Sie eine gültige URL ein."
+
+#: class/Banner.php:64
+msgid "image should be an instance of Image"
+msgstr "Das Bild sollte eine Instanz von Bild sein"
+
+#: class/Banner.php:69
+msgid "Banner HTML text should not be blank."
+msgstr "Banner HTML Text sollte nicht leer sein."
+
+#: class/BidIncrement.php:104
+msgid "Please enter valid numeric values"
+msgstr "Bitte geben Sie einen gültigen numerischen Wert ein."
+
+#: class/BidIncrement.php:114
+msgid "An increment range already exists with this range "
+msgstr "Ein Inkrement Bereich existiert bereits mit diesem Bereich"
+
+#: class/Category.php:72
+msgid "Please enter valid value for sort order"
+msgstr "Bitte geben Sie einen gültigen Wert für die Sortierreihenfolge an."
+
+#: class/Category.php:75
+msgid "Sort order value can not be negative"
+msgstr "Die Sortierreihenfolge darf nicht negativ sein"
+
+#: class/Category.php:260
+#: class/Category.php:289
+#: class/Category.php:407
+msgid "All categories"
+msgstr "Alle Kategorien"
+
+#: class/Category.php:402
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: class/Country.php:33
+msgid "Country name must not be blank"
+msgstr "Der Ländername darf nicht leer sein"
+
+#: class/Currency.php:34
+msgid "Currency name must not be blank"
+msgstr "Der Währungsname darf nicht leer sein"
+
+#: class/Currency.php:39
+msgid "Currency code must be 3 character long"
+msgstr "Das Währungszeichen muss mindestens 3 zeichen haben"
+
+#: class/CustomField.php:39
+#: class/CustomOfferField.php:37
+msgid "Please select a valid type."
+msgstr "Bitte wähle einen gültigen Typ."
+
+#: class/Date.php:96
+#, php-format
+msgid "%d days, %02dh:%02dm:%02ds"
+msgstr "%d Tage, %02dh:%02dm:%02ds"
+
+#: class/Favourite.php:63
+msgid "Please specify a valid favourite type."
+msgstr "Bitte geben Sie einen gültigen Favorit Typ an."
+
+#: class/Favourite.php:73
+msgid "Please specify a valid favourite."
+msgstr "Bitte geben Sie einen gültigen Favorit an."
+
+#: class/FeeRangeContainer.php:179
+#, php-format
+msgid "A Range already exists matching specified start {%d} and end value {%d}"
+msgstr ""
+
+#: class/Image.php:160
+msgid "File name should not be empty"
+msgstr ""
+
+#: class/Image.php:163
+msgid "File you are trying to upload does not exist"
+msgstr ""
+
+#: class/Image.php:166
+msgid "Max picture size cannot be zero."
+msgstr ""
+
+#: class/Image.php:169
+#, php-format
+msgid "Image size should be less than %d KB"
+msgstr ""
+
+#: class/Image.php:234
+msgid "Wrong file type. Allowed formats: GIF, JPG, PNG"
+msgstr ""
+
+#: class/Image.php:237
+#, php-format
+msgid "This is max size of images which are uploaded to server."
+msgstr ""
+
+#: class/Image.php:240
+msgid "Unable to retrieve image information. Please make sure that you have uploaded a valid image file"
+msgstr ""
+
+#: class/Item.php:66
+msgid "Item's title missing"
+msgstr ""
+
+#: class/Item.php:72
+#: class/Item.php:76
+#: class/Item.php:347
+msgid "Please enter a valid youtube video url"
+msgstr ""
+
+#: class/Item.php:291
+#: class/Item.php:313
+#: class/Item.php:331
+msgid "Image should be an object of Image class"
+msgstr ""
+
+#: class/Language.php:54
+msgid "Please write a language code in the form xx_XX"
+msgstr ""
+
+#: class/MailNotificator.php:220
+msgid "Your mails can not be delivered, due to some problem, please try again"
+msgstr ""
+
+#: class/MailNotificator.php:227
+msgid "Unable to send email."
+msgstr ""
+
+#: class/MailNotificator.php:274
+msgid "Your emails could not be sent. Please check PHPmailer settings"
+msgstr ""
+
+#: class/Message.php:76
+msgid "Please enter a valid user to send messages to "
+msgstr ""
+
+#: class/Message.php:81
+msgid "Subject must not be blank"
+msgstr ""
+
+#: class/Message.php:86
+msgid "Message must not be blank"
+msgstr ""
+
+#: class/Message.php:91
+msgid "Please specify a valid visibility status"
+msgstr ""
+
+#: class/Message.php:266
+msgid "Message does not exists."
+msgstr ""
+
+#: class/Message.php:281
+msgid "You can only delete your own messages"
+msgstr ""
+
+#: class/Message.php:306
+msgid "You can not change status of the messages you have sent"
+msgstr ""
+
+#: class/MetaTag.php:39
+#, php-format
+msgid "Invalid language id %s"
+msgstr ""
+
+#: class/Offer.php:153
+msgid "Incorrect date format."
+msgstr ""
+
+#: class/Offer.php:158
+msgid "Invalid start price (must be a positive number)."
+msgstr ""
+
+#: class/Offer.php:165
+msgid "Invalid ship costs (must be a positive number)."
+msgstr ""
+
+#: class/Offer.php:185
+msgid "Choose a payment method"
+msgstr ""
+
+#: class/Offer.php:190
+msgid "Choose a category for your item"
+msgstr ""
+
+#: class/Offer.php:195
+msgid "featured property should be an array"
+msgstr ""
+
+#: class/Offer.php:213
+msgid "Unable to upload the file, please try again."
+msgstr ""
+
+#: class/Offer.php:678
+#, php-format
+msgid "Field %s must not be blank"
+msgstr ""
+
+#: class/Offer.php:757
+#: class/Offer.php:768
+msgid "Please select a valid offer"
+msgstr ""
+
+#: class/Offer.php:812
+msgid "Quantity"
+msgstr ""
+
+#: class/Offer.php:1097
+msgid "Bid Now!"
+msgstr ""
+
+#: class/Offer.php:1212
+msgid "Your bid has been registered"
+msgstr ""
+
+#: class/Offer.php:1214
+msgid "Your bid is below the minimum bid"
+msgstr ""
+
+#: class/OfferShipping.php:95
+msgid "Please enter a valid value for shipping cost."
+msgstr ""
+
+#: class/OfferShipping.php:98
+msgid "Shipping cost must not be less than 0."
+msgstr ""
+
+#: class/OffersQuestion.php:64
+msgid "Question must not be empty"
+msgstr ""
+
+#: class/OffersQuestion.php:137
+msgid "This question already exists for this offer"
+msgstr ""
+
+#: class/PaymentGateway.php:300
+#, php-format
+msgid ""
+"One payment transaction related to %s and id %s has either failed or has been declined by %s.\n"
+"                        \n"
+"Please have a look at your %s merchant account and contact the concerned user."
+msgstr ""
+
+#: class/PayMethod.php:169
+msgid "You can not delete this gateway"
+msgstr ""
+
+#: class/Shipping.php:43
+msgid "Please provide a value."
+msgstr ""
+
+#: class/Shipping.php:195
+msgid "Title for default language must not be blank."
+msgstr ""
+
+#: class/Shipping.php:210
+msgid "Description for default language must not be blank."
+msgstr ""
+
+#: class/StandardAuction.php:50
+msgid "Invalid reserve price (must be positive number)."
+msgstr ""
+
+#: class/StandardAuction.php:56
+msgid "Invalid buy now price (must be positive number)."
+msgstr ""
+
+#: class/StandardAuction.php:62
+msgid "Invalid bid increment value (must be positive number)."
+msgstr ""
+
+#: class/StandardAuction.php:220
+msgid "Standard auction"
+msgstr ""
+
+#: class/StandardAuction.php:451
+msgid "Reserve price has been reached"
+msgstr ""
+
+#: class/StandardAuction.php:453
+msgid "Reserve price has not been met"
+msgstr ""
+
+#: class/StandardAuction.php:457
+msgid "No reserve price"
+msgstr ""
+
+#: class/StandardAuction.php:466
+msgid "However, it is below the Reserve Price"
+msgstr ""
+
+#: class/SystemInspector.php:175
+msgid "URL must start with http:// or https://"
+msgstr ""
+
+#: class/SystemInspector.php:181
+msgid "Your PHP config does not allow to read URL. Please set \"allow_url_fopen\" to On."
+msgstr ""
+
+#: class/SystemInstaller.php:119
+msgid "Please select a database type"
+msgstr ""
+
+#: class/SystemInstaller.php:125
+msgid "Please enter valid username"
+msgstr ""
+
+#: class/SystemInstaller.php:131
+msgid "Database name contains invalid characters or it is blank"
+msgstr ""
+
+#: class/SystemInstaller.php:138
+msgid "Please enter a valid table prefix"
+msgstr ""
+
+#: class/SystemInstaller.php:145
+msgid "Your passwords does not match"
+msgstr ""
+
+#: class/SystemInstaller.php:151
+msgid "Your database host name must not be blank"
+msgstr ""
+
+#: class/SystemInstaller.php:228
+msgid "There are some problem with your database configuration details. Please make sure they are correct and try again."
+msgstr ""
+
+#: class/SystemInstaller.php:234
+msgid "There are some problem with your database details. Please make sure they are correct and try again."
+msgstr ""
+
+#: class/Upgrader.php:300
+#, php-format
+msgid "Upgrader was unable to create %s. Please create the directory."
+msgstr ""
+
+#: class/Upgrader.php:303
+#, php-format
+msgid "\"%s\" directory is not writable, please make it writable."
+msgstr ""
+
+#: class/Upgrader.php:310
+#, php-format
+msgid "File %s is not writable, please make all txt files at mail/ directory writable"
+msgstr ""
+
+#: class/User.php:131
+msgid "Username missing"
+msgstr ""
+
+#: class/User.php:134
+msgid "Username must contain only latin chars and numbers"
+msgstr ""
+
+#: class/User.php:137
+msgid "Username too short (min 5 chars)"
+msgstr ""
+
+#: class/User.php:142
+msgid "Password missing"
+msgstr ""
+
+#: class/User.php:145
+msgid "Password too short (min 6 chars)"
+msgstr ""
+
+#: class/User.php:151
+msgid "E-mail address missing"
+msgstr ""
+
+#: class/User.php:154
+msgid "Please, insert a valid e-mail address"
+msgstr ""
+
+#: class/User.php:164
+msgid "Name missing"
+msgstr ""
+
+#: class/User.php:169
+msgid "Address missing"
+msgstr ""
+
+#: class/User.php:174
+msgid "Country missing"
+msgstr ""
+
+#: class/User.php:179
+msgid "Invalid language code"
+msgstr ""
+
+#: class/User.php:456
+msgid "Error while trying to change the default type of user in database"
+msgstr ""
+
+#: class/User.php:497
+#, php-format
+msgid "%s must not be blank"
+msgstr ""
+
+#: class/User.php:519
+msgid "Active"
+msgstr ""
+
+#: class/User.php:521
+msgid "Email verified but account not activated"
+msgstr ""
+
+#: class/User.php:522
+msgid "Admin"
+msgstr ""
+
+#: class/User.php:523
+msgid "Non admin"
+msgstr ""
+
+#: class/User.php:524
+msgid "Seller"
+msgstr ""
+
+#: class/User.php:525
+msgid "Non seller"
+msgstr ""
+
+#: class/User.php:526
+msgid "Trust"
+msgstr ""
+
+#: class/User.php:527
+msgid "Non trust"
+msgstr ""
+
+#: class/User.php:911
+#, php-format
+msgid "From %s"
+msgstr ""
+
+#: class/UserPayMethod.php:38
+msgid "Property must be an instance of PayMethod class"
+msgstr ""
+
+#: class/UserPayMethod.php:43
+msgid "Property must be an instance of User class"
+msgstr ""
+
+#: class/Voucher.php:52
+msgid "a percent of discount is needed"
+msgstr ""
+
+#: class/Voucher.php:54
+msgid "percent of discount must be a number from 0 to 100"
+msgstr ""
+
+#: class/Voucher.php:59
+msgid "a unique code is needed"
+msgstr ""
+
+#: class/Voucher.php:61
+#, php-format
+msgid "there is already a voucher with code %s"
+msgstr ""
+
+#: class/Voucher.php:70
+#, php-format
+msgid "date %s is not valid"
+msgstr ""
+
+#: class/Voucher.php:75
+msgid "All fields must be filled"
+msgstr ""
+
+#: class/Voucher.php:205
+#, php-format
+msgid "Promotion will start in %s"
+msgstr ""
+
+#: class/Voucher.php:208
+#, php-format
+msgid "Promotion already ended on %s"
+msgstr ""
+
+#: class/Voucher.php:211
+msgid "Voucher is not active"
+msgstr ""
+
+#: class/Voucher.php:222
+#, php-format
+msgid "You have already used this voucher %d times, which is its limit"
+msgstr ""
+
+#: class/Action/Admin.php:61
+msgid "You need to login as administrator to perform this operation"
+msgstr ""
+
+#: class/Action/BidPack.php:19
+msgid "Bid packs"
+msgstr ""
+
+#: class/Action/BidPack.php:49
+msgid "The bid pack you chose is not active"
+msgstr ""
+
+#: class/Action/BidPack.php:59
+msgid "Amount of this bid pack will be included in your invoice."
+msgstr ""
+
+#: class/Action/BidPack.php:89
+#, php-format
+msgid "Payment from %s for buying %d bid pack on %s"
+msgstr ""
+
+#: class/Action/BidPack.php:95
+msgid "Bid pack buy"
+msgstr ""
+
+#: class/Action/Category.php:141
+#: class/Action/Index.php:61
+#, php-format
+msgid "%s RSS Feed"
+msgstr ""
+
+#: class/Action/CustomPage.php:23
+msgid "No such page"
+msgstr ""
+
+#: class/Action/CustomPage.php:44
+#: class/Action/CustomPage.php:68
+msgid "Page you are trying to access does not exists. Please contact the site administrator."
+msgstr ""
+
+#: class/Action/Fee.php:15
+msgid "Fee summary"
+msgstr ""
+
+#: class/Action/Index.php:64
+#, php-format
+msgid "%s Last created auctions"
+msgstr ""
+
+#: class/Action/Index.php:98
+msgid "None"
+msgstr ""
+
+#: class/Action/Message.php:27
+#, php-format
+msgid "%s messages"
+msgstr ""
+
+#: class/Action/Message.php:46
+#: class/Action/Message.php:90
+#: class/Action/Message.php:108
+msgid "send new message"
+msgstr ""
+
+#: class/Action/Message.php:75
+msgid "Message sent successfully"
+msgstr ""
+
+#: class/Action/Message.php:80
+#, php-format
+msgid "Unable to send message to %s "
+msgstr ""
+
+#: class/Action/Message.php:129
+#: class/Action/Message.php:146
+#: class/Action/Message.php:247
+#: class/Action/Message.php:342
+msgid "Please select a valid message"
+msgstr ""
+
+#: class/Action/Message.php:160
+#: class/Action/Message.php:205
+msgid "Delete message"
+msgstr ""
+
+#: class/Action/Message.php:178
+msgid "No messages were deleted"
+msgstr ""
+
+#: class/Action/Message.php:181
+#: class/Action/Message.php:230
+msgid "Message deleted successfully"
+msgstr ""
+
+#: class/Action/Message.php:184
+#, php-format
+msgid "%d message deleted successfully, but there was some problem while trying to delete others"
+msgstr ""
+
+#: class/Action/Message.php:209
+msgid "Please select messages you want to delete"
+msgstr ""
+
+#: class/Action/Message.php:233
+msgid "Error while deleting the message"
+msgstr ""
+
+#: class/Action/Message.php:262
+#: class/Action/Message.php:316
+msgid "Please specify a valid status "
+msgstr ""
+
+#: class/Action/Message.php:282
+msgid "Status changed successfully"
+msgstr ""
+
+#: class/Action/Message.php:285
+#, php-format
+msgid "Status of %d message(s) changed successfully, but there was some problem while trying to change others status"
+msgstr ""
+
+#: class/Action/Message.php:299
+msgid "Please select messages to change status"
+msgstr ""
+
+#: class/Action/Message.php:324
+msgid "Message status changed successfully"
+msgstr ""
+
+#: class/Action/Message.php:328
+msgid "Error while changing status of the message"
+msgstr ""
+
+#: class/Action/Message.php:355
+msgid "Mark as unread"
+msgstr ""
+
+#: class/Action/Message.php:360
+msgid "Mark as read"
+msgstr ""
+
+#: class/Action/Message.php:366
+msgid "Delete"
+msgstr ""
+
+#: class/Action/Message.php:375
+msgid "Please select a valid option."
+msgstr ""
+
+#: class/Action/Offer.php:74
+msgid "Add new offer"
+msgstr ""
+
+#: class/Action/Offer.php:137
+#: class/Action/Offer.php:277
+msgid "There is no such voucher"
+msgstr ""
+
+#: class/Action/Offer.php:143
+msgid "Fees"
+msgstr ""
+
+#: class/Action/Offer.php:179
+#, php-format
+msgid "Payment from %s for creating Auction %s on %s"
+msgstr ""
+
+#: class/Action/Offer.php:231
+msgid "You are currently not allowed to sell on this site"
+msgstr ""
+
+#: class/Action/Offer.php:286
+#, php-format
+msgid "%s type is not allowed in the site"
+msgstr ""
+
+#: class/Action/Offer.php:380
+#, php-format
+msgid "Max allowed file size is %d KB"
+msgstr ""
+
+#: class/Action/Offer.php:398
+msgid "Unable to upload the selected file"
+msgstr ""
+
+#: class/Action/Offer.php:436
+#, php-format
+msgid "Relisting value must be a positive integer value."
+msgstr ""
+
+#: class/Action/Offer.php:439
+#, php-format
+msgid "Relisting value must not be more than %d"
+msgstr ""
+
+#: class/Action/Offer.php:442
+#, php-format
+msgid "Relisting value must not be negative"
+msgstr ""
+
+#: class/Action/Offer.php:446
+#: class/Action/Offer.php:449
+msgid "Incorrect duration. Duration should positive integer value."
+msgstr ""
+
+#: class/Action/Offer.php:452
+msgid "You must select at least one shipping method."
+msgstr ""
+
+#: class/Action/Offer.php:485
+#, php-format
+msgid "%s type is not allowed in webstores"
+msgstr ""
+
+#: class/Action/Offer.php:491
+msgid "There was some problem while trying to add offer to webstore."
+msgstr ""
+
+#: class/Action/Offer.php:494
+msgid "You do not have a webstore."
+msgstr ""
+
+#: class/Action/Offer.php:715
+#: class/Action/Offer.php:1153
+msgid "Auction updated"
+msgstr ""
+
+#: class/Action/Offer.php:721
+msgid "Auction created and notification mail sent to your email"
+msgstr ""
+
+#: class/Action/Offer.php:903
+#: class/Action/Offer.php:1330
+msgid "Specified auction does not exist."
+msgstr ""
+
+#: class/Action/Offer.php:920
+#: class/Action/Offer.php:923
+msgid "The auction you are trying to view is an adult auction."
+msgstr ""
+
+#: class/Action/Offer.php:921
+msgid "You must be logged in to view the auction"
+msgstr ""
+
+#: class/Action/Offer.php:924
+#, php-format
+msgid "You must be at least %d year old to view the auction."
+msgstr ""
+
+#: class/Action/Offer.php:1057
+msgid "Buyer pays shipping expenses"
+msgstr ""
+
+#: class/Action/Offer.php:1069
+msgid "Seller pays shipping expenses"
+msgstr ""
+
+#: class/Action/Offer.php:1072
+msgid "international shipping"
+msgstr ""
+
+#: class/Action/Offer.php:1077
+msgid "Not specified"
+msgstr ""
+
+#: class/Action/Offer.php:1173
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: class/Action/Offer.php:1275
+msgid "You can't edit the auction if it has bids already"
+msgstr ""
+
+#: class/Action/Offer.php:1280
+msgid "Only the owner can edit the auction"
+msgstr ""
+
+#: class/Action/Offer.php:1285
+msgid "Please select a valid offer to edit"
+msgstr ""
+
+#: class/Action/Offer.php:1304
+#: class/Action/Offer.php:1311
+msgid "No auction found"
+msgstr ""
+
+#: class/Action/Offer.php:1317
+msgid "To bid you must be registered."
+msgstr ""
+
+#: class/Action/Offer.php:1321
+msgid "You cannot bid, you are the seller!"
+msgstr ""
+
+#: class/Action/Offer.php:1347
+msgid "Bid"
+msgstr ""
+
+#: class/Action/Offer.php:1356
+msgid "Please enter a bid amount."
+msgstr ""
+
+#: class/Action/Offer.php:1360
+msgid "Please enter a numeric value."
+msgstr ""
+
+#: class/Action/Offer.php:1432
+msgid "Please select a valid auction"
+msgstr ""
+
+#: class/Action/Offer.php:1436
+msgid "You can only remove draft auctions"
+msgstr ""
+
+#: class/Action/Offer.php:1453
+msgid "Offer removed successfully."
+msgstr ""
+
+#: class/Action/Offer.php:1458
+msgid "Unable to delete draft"
+msgstr ""
+
+#: class/Action/Offer.php:1469
+msgid "Only owner can remove offers"
+msgstr ""
+
+#: class/Action/Offer.php:1524
+msgid "Question added successfully"
+msgstr ""
+
+#: class/Action/Offer.php:1540
+msgid "Question answered successfully"
+msgstr ""
+
+#: class/Action/Offer.php:1543
+msgid "Please select a valid question to answer"
+msgstr ""
+
+#: class/Action/Offer.php:1574
+msgid "You can only copy the auctions that you own"
+msgstr ""
+
+#: class/Action/Offer.php:1591
+msgid "New draft auction created."
+msgstr ""
+
+#: class/Action/Offer.php:1593
+msgid "Unable to copy the auction."
+msgstr ""
+
+#: class/Action/Offer.php:1623
+msgid "Please specify reason why you are reporting this item as fraud."
+msgstr ""
+
+#: class/Action/Offer.php:1646
+msgid "Thank you for reporting this possible fraud. An administrator of the site will value your report"
+msgstr ""
+
+#: class/Action/Offer.php:1652
+msgid "Please select a valid auction to report fraud."
+msgstr ""
+
+#: class/Action/Offer.php:1667
+msgid "Report a fraud"
+msgstr ""
+
+#: class/Action/PayGatewayNotification.php:14
+msgid "No payment gateway specified."
+msgstr ""
+
+#: class/Action/Search.php:27
+#, php-format
+msgid "search \"%s\""
+msgstr ""
+
+#: class/Action/Store.php:28
+#: class/Action/Store.php:169
+#: class/Action/Store.php:261
+#: class/Action/Store.php:396
+#: class/Action/Store.php:698
+msgid "Web stores disabled by site admin."
+msgstr ""
+
+#: class/Action/Store.php:155
+msgid "Web stores"
+msgstr ""
+
+#: class/Action/Store.php:270
+msgid "You can not create more than one store"
+msgstr ""
+
+#: class/Action/Store.php:309
+msgid "Create store"
+msgstr ""
+
+#: class/Action/Store.php:444
+#, php-format
+msgid "Edit webstore %s"
+msgstr ""
+
+#: class/Action/Store.php:460
+msgid "Only store owner can edit store details."
+msgstr ""
+
+#: class/Action/Store.php:467
+msgid "Please select a valid store to edit."
+msgstr ""
+
+#: class/Action/Store.php:507
+#: class/Action/Store.php:514
+msgid "Store already exist, please choose a different name."
+msgstr ""
+
+#: class/Action/Store.php:610
+#, php-format
+msgid "Payment from %s for creating Store: %s on %s"
+msgstr ""
+
+#: class/Action/Store.php:708
+msgid "Webstore removed successfully"
+msgstr ""
+
+#: class/Action/Store.php:713
+#, php-format
+msgid "Delete webstore \"%s\""
+msgstr ""
+
+#: class/Action/Store.php:720
+msgid "You have no webstore on the site."
+msgstr ""
+
+#: class/Action/User.php:139
+msgid "Incorrect security code"
+msgstr ""
+
+#: class/Action/User.php:168
+#, php-format
+msgid "To register with the site, you must agree with the terms of use"
+msgstr ""
+
+#: class/Action/User.php:190
+msgid "Mail sent successfully"
+msgstr ""
+
+#: class/Action/User.php:193
+msgid "Admin will validate you registration."
+msgstr ""
+
+#: class/Action/User.php:206
+#: class/Action/User.php:1175
+msgid "E-mail address already used"
+msgstr ""
+
+#: class/Action/User.php:224
+msgid "The username already exists in the database"
+msgstr ""
+
+#: class/Action/User.php:230
+msgid "Please, repeat your password"
+msgstr ""
+
+#: class/Action/User.php:232
+msgid "Passwords do not match"
+msgstr ""
+
+#: class/Action/User.php:265
+#, php-format
+msgid "Payment from %s for signing up on %s"
+msgstr ""
+
+#: class/Action/User.php:284
+msgid "Thank you for confirming your registration! You can participate in site activities after admin validates your account."
+msgstr ""
+
+#: class/Action/User.php:288
+msgid "Thank you for confirming your registration! The registration process completed and you can now participate in our site's activities."
+msgstr ""
+
+#: class/Action/User.php:294
+#, php-format
+msgid "As a welcoming gift, you will start with %d free bids for using them in penny auctions."
+msgstr ""
+
+#: class/Action/User.php:301
+msgid "Something went wrong! Try to do it again"
+msgstr ""
+
+#: class/Action/User.php:354
+msgid "You account have been deactivated due to non payment of membership fee. Please pay your due fee."
+msgstr ""
+
+#: class/Action/User.php:359
+msgid "Login failed. Account not activated, please contact administrator to activate you account."
+msgstr ""
+
+#: class/Action/User.php:365
+msgid "Login incorrect"
+msgstr ""
+
+#: class/Action/User.php:403
+msgid "Membership fee"
+msgstr ""
+
+#: class/Action/User.php:423
+#, php-format
+msgid "Payment from %s as membership fee on %s"
+msgstr ""
+
+#: class/Action/User.php:434
+msgid "Membership fee charged successfully and will be included in your next invoice."
+msgstr ""
+
+#: class/Action/User.php:439
+#, php-format
+msgid "You have already paid the fee in last %d days. You do not need to pay the fee again."
+msgstr ""
+
+#: class/Action/User.php:442
+msgid "Account activated"
+msgstr ""
+
+#: class/Action/User.php:446
+#: class/Action/User.php:450
+msgid "Invalid user id"
+msgstr ""
+
+#: class/Action/User.php:531
+#: class/Action/User.php:655
+#: class/Action/User.php:727
+#, php-format
+msgid "%s profile"
+msgstr ""
+
+#: class/Action/User.php:607
+msgid "Auction reactivated successfully"
+msgstr ""
+
+#: class/Action/User.php:610
+msgid "Only owner can relist offer"
+msgstr ""
+
+#: class/Action/User.php:679
+msgid "Auction finished successfully"
+msgstr ""
+
+#: class/Action/User.php:682
+msgid "Only owner can finish the auction"
+msgstr ""
+
+#: class/Action/User.php:746
+msgid "Your bids"
+msgstr ""
+
+#: class/Action/User.php:780
+#: class/Action/User.php:926
+#: class/Action/Admin/Banner.php:209
+#: class/Action/Admin/Shipping.php:139
+#: class/Action/Admin/Shipping.php:144
+msgid "Status updated successfully."
+msgstr ""
+
+#: class/Action/User.php:793
+msgid "Shipping update successfully."
+msgstr ""
+
+#: class/Action/User.php:797
+msgid "Please select a valid shipping method."
+msgstr ""
+
+#: class/Action/User.php:802
+msgid "Unable to update shipping method."
+msgstr ""
+
+#: class/Action/User.php:893
+msgid "Auctions you won"
+msgstr ""
+
+#: class/Action/User.php:998
+#, php-format
+msgid "Feedbacks received"
+msgstr ""
+
+#: class/Action/User.php:1032
+#: class/Action/User.php:1037
+msgid "Please select a valid feedback"
+msgstr ""
+
+#: class/Action/User.php:1053
+msgid "Feedback left"
+msgstr ""
+
+#: class/Action/User.php:1056
+msgid "There was a problem with the DB"
+msgstr ""
+
+#: class/Action/User.php:1116
+msgid "Feedbacks left"
+msgstr ""
+
+#: class/Action/User.php:1138
+msgid "Edit your details"
+msgstr ""
+
+#: class/Action/User.php:1165
+msgid "Your data has been updated"
+msgstr ""
+
+#: class/Action/User.php:1259
+msgid "A new password has been sent to your e-mail address."
+msgstr ""
+
+#: class/Action/User.php:1262
+msgid "User unknown"
+msgstr ""
+
+#: class/Action/User.php:1293
+msgid "Paid invoices"
+msgstr ""
+
+#: class/Action/User.php:1294
+msgid "Unpaid invoices"
+msgstr ""
+
+#: class/Action/User.php:1321
+msgid "Invoice"
+msgstr ""
+
+#: class/Action/User.php:1335
+msgid "Invalid invoice number"
+msgstr ""
+
+#: class/Action/User.php:1335
+msgid "Please select a valid invoice"
+msgstr ""
+
+#: class/Action/User.php:1343
+msgid "You can only view your own invoice"
+msgstr ""
+
+#: class/Action/User.php:1359
+#, php-format
+msgid "Payment from %s for invoice %d on %s"
+msgstr ""
+
+#: class/Action/User.php:1376
+msgid "Invoice Details"
+msgstr ""
+
+#: class/Action/User.php:1392
+msgid "Pay method set to direct pay, all your due fees will be sent to you as invoice."
+msgstr ""
+
+#: class/Action/User.php:1407
+msgid "Relisting fee"
+msgstr ""
+
+#: class/Action/User.php:1407
+msgid "Final value fee"
+msgstr ""
+
+#: class/Action/User.php:1408
+#, php-format
+msgid "Payment of %s from %s for Auction %s on %s"
+msgstr ""
+
+#: class/Action/User.php:1463
+#, php-format
+msgid "%s added to your favourites."
+msgstr ""
+
+#: class/Action/User.php:1472
+#, php-format
+msgid "%s removed from your favourites."
+msgstr ""
+
+#: class/Action/User.php:1504
+msgid "My favourites"
+msgstr ""
+
+#: class/Action/User.php:1526
+msgid "Please upload a valid file. Only accepted format is TXT."
+msgstr ""
+
+#: class/Action/User.php:1530
+#, php-format
+msgid "File size should not be more than %d KB"
+msgstr ""
+
+#: class/Action/User.php:1541
+#, php-format
+msgid "Incorrect number of fields in the line %s"
+msgstr ""
+
+#: class/Action/User.php:1569
+#, php-format
+msgid "Invalid paymethod %s specified in %s"
+msgstr ""
+
+#: class/Action/User.php:1572
+#, php-format
+msgid "No paymethod specified in %s"
+msgstr ""
+
+#: class/Action/User.php:1580
+#, php-format
+msgid "Incorrect duration %d specified in %s. Duration should positive integer value."
+msgstr ""
+
+#: class/Action/User.php:1584
+#, php-format
+msgid "Invalid type %d specified in line %s"
+msgstr ""
+
+#: class/Action/User.php:1589
+#, php-format
+msgid "Invalid category name \"%s\" specified in %s"
+msgstr ""
+
+#: class/Action/User.php:1622
+#, php-format
+msgid "Invalid reserve or buy now price specified in %s. Leave it to 0 if you do not want to use them."
+msgstr ""
+
+#: class/Action/User.php:1628
+#, php-format
+msgid "Invalid bid increment value %d specified in %s"
+msgstr ""
+
+#: class/Action/User.php:1646
+#, php-format
+msgid "Invalid quantity %d specified in %s"
+msgstr ""
+
+#: class/Action/User.php:1666
+#, php-format
+msgid "Unable to save the auction from the line %s"
+msgstr ""
+
+#: class/Action/User.php:1669
+#, php-format
+msgid "Total %d new draft offers created"
+msgstr ""
+
+#: class/Action/User.php:1688
+#: class/Action/User.php:1695
+msgid "Bulk auction upload"
+msgstr ""
+
+#: class/Action/User.php:1708
+msgid "Please select a valid auction."
+msgstr ""
+
+#: class/Action/User.php:1714
+msgid "Only owner can change the winner."
+msgstr ""
+
+#: class/Action/User.php:1723
+msgid "Please select a valid winner"
+msgstr ""
+
+#: class/Action/User.php:1726
+msgid "New winner is same as current winner. Please select a different winner to change"
+msgstr ""
+
+#: class/Action/User.php:1736
+msgid "Winner changed successfully"
+msgstr ""
+
+#: class/Action/User.php:1740
+msgid "Error while trying to change winner."
+msgstr ""
+
+#: class/Action/User.php:1763
+#, php-format
+msgid "Change winner for \"%s\""
+msgstr ""
+
+#: class/Action/User.php:1785
+msgid "You can not ban yourself"
+msgstr ""
+
+#: class/Action/User.php:1789
+#: class/Action/User.php:1799
+msgid "Please specify a valid user"
+msgstr ""
+
+#: class/Action/User.php:1793
+#, php-format
+msgid "User %s successfully added to your banned users list"
+msgstr ""
+
+#: class/Action/User.php:1803
+#, php-format
+msgid "User %s successfully removed from your banned users list"
+msgstr ""
+
+#: class/Action/User.php:1815
+msgid "Your Banned users"
+msgstr ""
+
+#: class/Action/UserKeyword.php:20
+msgid "Keyword watch"
+msgstr ""
+
+#: class/Action/UserKeyword.php:42
+msgid "New keywords added successfully."
+msgstr ""
+
+#: class/Action/UserKeyword.php:45
+msgid "No keyword specified"
+msgstr ""
+
+#: class/Action/UserKeyword.php:64
+msgid "Keyword removed"
+msgstr ""
+
+#: class/Action/UserPayMethod.php:49
+#: class/Action/Admin/Settings.php:476
+msgid "Please enter all required details"
+msgstr ""
+
+#: class/Action/UserPayMethod.php:65
+#: class/Action/Admin/Settings.php:495
+msgid "Details saved successfully"
+msgstr ""
+
+#: class/Action/UserPayMethod.php:95
+msgid "Your payment settings"
+msgstr ""
+
+#: class/Action/UserReturnFromPay.php:15
+msgid "Thank you for your payment. Your account will be updated after your payment has been processed."
+msgstr ""
+
+#: class/Action/UserReturnFromPay.php:24
+msgid "Payment was cancelled by user."
+msgstr ""
+
+#: class/Action/Admin/Banner.php:55
+msgid "New banner added successfully."
+msgstr ""
+
+#: class/Action/Admin/Banner.php:79
+#: class/Action/Admin/Banner.php:157
+msgid "Banner updated successfully."
+msgstr ""
+
+#: class/Action/Admin/Banner.php:103
+msgid "Please select a valid banner to edit."
+msgstr ""
+
+#: class/Action/Admin/Banner.php:136
+msgid "Please upload image for banner."
+msgstr ""
+
+#: class/Action/Admin/Banner.php:157
+msgid "Banner added successfully."
+msgstr ""
+
+#: class/Action/Admin/Banner.php:160
+msgid "There was some problem while trying to save the banner."
+msgstr ""
+
+#: class/Action/Admin/Banner.php:190
+#: class/Action/Admin/Settings.php:755
+#: class/Action/Admin/Settings.php:789
+msgid "Updated successfully."
+msgstr ""
+
+#: class/Action/Admin/Banner.php:212
+msgid "Please select a valid banner."
+msgstr ""
+
+#: class/Action/Admin/Banner.php:232
+msgid "Banner deleted successfully."
+msgstr ""
+
+#: class/Action/Admin/Banner.php:249
+msgid "Please select a valid banner"
+msgstr ""
+
+#: class/Action/Admin/Category.php:59
+#: class/Action/Admin/Category.php:133
+msgid "Parent category is not active, this category will not be displayed in the category listing."
+msgstr ""
+
+#: class/Action/Admin/Category.php:64
+msgid "Category added successfully"
+msgstr ""
+
+#: class/Action/Admin/Category.php:103
+msgid "Please select a valid category to edit"
+msgstr ""
+
+#: class/Action/Admin/Category.php:141
+msgid "Category details updated successfully"
+msgstr ""
+
+#: class/Action/Admin/Category.php:205
+msgid "Category removed successfully"
+msgstr ""
+
+#: class/Action/Admin/Category.php:207
+msgid "Error while trying to remove "
+msgstr ""
+
+#: class/Action/Admin/Category.php:210
+msgid "Category does not exist"
+msgstr ""
+
+#: class/Action/Admin/Category.php:213
+msgid "There was some problem while trying to remove "
+msgstr ""
+
+#: class/Action/Admin/Category.php:234
+msgid "Category order settings updated successfully."
+msgstr ""
+
+#: class/Action/Admin/Category.php:262
+#: class/Action/Admin/CustomPages.php:329
+#: class/Action/Admin/Settings.php:1170
+#: class/Action/Admin/Settings.php:1189
+#: class/Action/Admin/Settings.php:1208
+msgid "Saved successfully."
+msgstr ""
+
+#: class/Action/Admin/Category.php:265
+#: class/Action/Admin/Shipping.php:147
+msgid "Please select a valid action."
+msgstr ""
+
+#: class/Action/Admin/Category.php:269
+msgid "Please select valid category."
+msgstr ""
+
+#: class/Action/Admin/Category.php:279
+msgid "Please select a parent"
+msgstr ""
+
+#: class/Action/Admin/Category.php:281
+msgid "Please enter name for category in default language"
+msgstr ""
+
+#: class/Action/Admin/Category.php:300
+#: class/Action/Admin/CustomPages.php:304
+#: class/Action/Admin/Shipping.php:196
+msgid "Notice you have left some translations empty"
+msgstr ""
+
+#: class/Action/Admin/Currency.php:46
+msgid "Currency code already exists"
+msgstr ""
+
+#: class/Action/Admin/Currency.php:52
+#: class/Action/Admin/Currency.php:96
+msgid "Details updated successfully"
+msgstr ""
+
+#: class/Action/Admin/Currency.php:90
+msgid "Specified currency code already exists."
+msgstr ""
+
+#: class/Action/Admin/Currency.php:117
+msgid "Please select a valid currency"
+msgstr ""
+
+#: class/Action/Admin/CustomPages.php:274
+msgid "Please select a section for this page"
+msgstr ""
+
+#: class/Action/Admin/CustomPages.php:276
+msgid "Please enter page title and data for default language"
+msgstr ""
+
+#: class/Action/Admin/CustomPages.php:285
+msgid "Page title already exists"
+msgstr ""
+
+#: class/Action/Admin/CustomPages.php:319
+#: class/Action/Admin/Settings.php:845
+msgid "Please enter a valid value"
+msgstr ""
+
+#: class/Action/Admin/CustomPages.php:322
+msgid "Value entered should not be less than 1"
+msgstr ""
+
+#: class/Action/Admin/Index.php:25
+msgid "Warning: your installation script is still present in the install/ directory."
+msgstr ""
+
+#: class/Action/Admin/Index.php:26
+#: class/Action/Admin/Index.php:31
+msgid "For security reasons you'd better delete it or move it elsewhere."
+msgstr ""
+
+#: class/Action/Admin/Index.php:30
+msgid "Warning: the migration script (from old phpAuction products) is still present in the / directory."
+msgstr ""
+
+#: class/Action/Admin/Offers.php:64
+msgid "Offer activated successfully"
+msgstr ""
+
+#: class/Action/Admin/Offers.php:80
+msgid "Offer deactivated successfully"
+msgstr ""
+
+#: class/Action/Admin/Offers.php:106
+msgid "Bid Increment saved successfully"
+msgstr ""
+
+#: class/Action/Admin/Offers.php:137
+msgid "Auction's types saved successfully"
+msgstr ""
+
+#: class/Action/Admin/Offers.php:139
+msgid "There was a problem while updating the data"
+msgstr ""
+
+#: class/Action/Admin/Offers.php:161
+msgid "Last moment time should be greater than 0."
+msgstr ""
+
+#: class/Action/Admin/Offers.php:164
+#: class/Action/Admin/Offers.php:167
+msgid "Please enter a valid value."
+msgstr ""
+
+#: class/Action/Admin/Offers.php:176
+msgid "Auction auto extension details updated successfully."
+msgstr ""
+
+#: class/Action/Admin/Offers.php:218
+msgid "There was some problem while trying to remove this offer."
+msgstr ""
+
+#: class/Action/Admin/Offers.php:228
+msgid "Please select a valid offer."
+msgstr ""
+
+#: class/Action/Admin/Offers.php:258
+msgid "Auction saved as draft"
+msgstr ""
+
+#: class/Action/Admin/Offers.php:589
+msgid "User does not have a webstore."
+msgstr ""
+
+#: class/Action/Admin/Offers.php:762
+#, php-format
+msgid "Words successfully added to banned word list."
+msgstr ""
+
+#: class/Action/Admin/Offers.php:764
+msgid "Please enter a valid word to add in banned word list."
+msgstr ""
+
+#: class/Action/Admin/Offers.php:771
+#, php-format
+msgid "Word %s successfully removed from banned word list."
+msgstr ""
+
+#: class/Action/Admin/Offers.php:773
+msgid "Please select a valid word to remove from banned word list."
+msgstr ""
+
+#: class/Action/Admin/Offers.php:815
+msgid "Time should be greater than 0."
+msgstr ""
+
+#: class/Action/Admin/Offers.php:821
+msgid "Penny autobid delay updated successfully."
+msgstr ""
+
+#: class/Action/Admin/Settings.php:24
+msgid "Please provide an email address for receiving BCC mails by system."
+msgstr ""
+
+#: class/Action/Admin/Settings.php:27
+#: class/Action/Admin/Settings.php:30
+#: class/Action/Admin/Settings.php:33
+#, php-format
+msgid "Please provide a valid email for %s."
+msgstr ""
+
+#: class/Action/Admin/Settings.php:150
+msgid "Error while trying to update the status"
+msgstr ""
+
+#: class/Action/Admin/Settings.php:170
+msgid "You can not disable English in your site."
+msgstr ""
+
+#: class/Action/Admin/Settings.php:193
+msgid "You can not delete English"
+msgstr ""
+
+#: class/Action/Admin/Settings.php:213
+#: class/Action/Admin/Settings.php:827
+#: class/Action/Admin/Settings.php:851
+#: class/Action/Admin/Settings.php:882
+#: class/Action/Admin/Settings.php:910
+#: class/Action/Admin/Settings.php:935
+#: class/Action/Admin/Settings.php:962
+#: class/Action/Admin/Settings.php:989
+#: class/Action/Admin/Settings.php:1023
+#: class/Action/Admin/Settings.php:1066
+#: class/Action/Admin/Settings.php:1133
+msgid "Saved successfully"
+msgstr ""
+
+#: class/Action/Admin/Settings.php:278
+msgid "Language ID should be in xx_XX format (for example: en_US)"
+msgstr ""
+
+#: class/Action/Admin/Settings.php:283
+msgid "Language not available on the server"
+msgstr ""
+
+#: class/Action/Admin/Settings.php:288
+#: class/Action/Admin/Settings.php:350
+msgid "Language already exists"
+msgstr ""
+
+#: class/Action/Admin/Settings.php:290
+msgid "Language name should not be blank"
+msgstr ""
+
+#: class/Action/Admin/Settings.php:372
+msgid "Language is not installed on your server unix/linux, so it can not be activated."
+msgstr ""
+
+#: class/Action/Admin/Settings.php:415
+msgid "Site design settings updated successfully"
+msgstr ""
+
+#: class/Action/Admin/Settings.php:565
+msgid "Meta information updated successfully"
+msgstr ""
+
+#: class/Action/Admin/Settings.php:620
+msgid "Default currency updated"
+msgstr ""
+
+#: class/Action/Admin/Settings.php:624
+msgid "Please select default currency."
+msgstr ""
+
+#: class/Action/Admin/Settings.php:720
+msgid "Signup approval type update successfully"
+msgstr ""
+
+#: class/Action/Admin/Settings.php:746
+msgid "Please enter valid Google Analytics ID"
+msgstr ""
+
+#: class/Action/Admin/Settings.php:779
+msgid "You need at least PHP 5.1 to use timezones!"
+msgstr ""
+
+#: class/Action/Admin/Settings.php:780
+#, php-format
+msgid "Your PHP version is %s."
+msgstr ""
+
+#: class/Action/Admin/Settings.php:842
+msgid "Number of images allowed should be greater than 0"
+msgstr ""
+
+#: class/Action/Admin/Settings.php:873
+msgid "Please specify a valid value"
+msgstr ""
+
+#: class/Action/Admin/Settings.php:904
+msgid "Less than 5 seconds is a too dangerous rate!"
+msgstr ""
+
+#: class/Action/Admin/Settings.php:1014
+msgid "If you activate Google map, its key must not be blank."
+msgstr ""
+
+#: class/Action/Admin/Settings.php:1026
+msgid "Error while saving google map settings."
+msgstr ""
+
+#: class/Action/Admin/Settings.php:1057
+msgid "Invalid value for adult age."
+msgstr ""
+
+#: class/Action/Admin/Settings.php:1069
+msgid "Error while saving settings."
+msgstr ""
+
+#: class/Action/Admin/Settings.php:1099
+#, php-format
+msgid "Site profile '%s' applied successfully."
+msgstr ""
+
+#: class/Action/Admin/Settings.php:1102
+msgid "Error while applying site profile."
+msgstr ""
+
+#: class/Action/Admin/Settings.php:1106
+msgid "Please select a valid site profile."
+msgstr ""
+
+#: class/Action/Admin/Settings.php:1136
+#: class/Action/Admin/Settings.php:1141
+msgid "Error while trying to update currency settings."
+msgstr ""
+
+#: class/Action/Admin/Shipping.php:72
+#: class/Action/Admin/Shipping.php:153
+msgid "Please select a valid shipping method to edit."
+msgstr ""
+
+#: class/Action/Admin/Shipping.php:114
+msgid "New shipping method added successfully."
+msgstr ""
+
+#: class/Action/Admin/Shipping.php:117
+msgid "Details updated successfully."
+msgstr ""
+
+#: class/Action/Admin/Shipping.php:166
+msgid "Deleted successfully."
+msgstr ""
+
+#: class/Action/Admin/Shipping.php:176
+msgid "Please select a valid shipping option to delete."
+msgstr ""
+
+#: class/Action/Admin/Statistics.php:24
+msgid "Start date should not be greater than end date."
+msgstr ""
+
+#: class/Action/Admin/Thematics.php:63
+msgid "Section added successfully"
+msgstr ""
+
+#: class/Action/Admin/Thematics.php:119
+msgid "Section details updated successfully"
+msgstr ""
+
+#: class/Action/Admin/Thematics.php:234
+msgid "Please enter name in default language name for section"
+msgstr ""
+
+#: class/Action/Admin/Thematics.php:243
+msgid "Section already exists"
+msgstr ""
+
+#: class/Action/Admin/User.php:88
+msgid "Unable to suspend the account "
+msgstr ""
+
+#: class/Action/Admin/User.php:103
+#: class/Action/Admin/User.php:477
+msgid "Account status changed successfully"
+msgstr ""
+
+#: class/Action/Admin/User.php:105
+#: class/Action/Admin/User.php:479
+msgid "Unable to change status of the user"
+msgstr ""
+
+#: class/Action/Admin/User.php:120
+#: class/Action/Admin/User.php:144
+msgid "You cannot delete admin account."
+msgstr ""
+
+#: class/Action/Admin/User.php:130
+msgid "Unable to delete "
+msgstr ""
+
+#: class/Action/Admin/User.php:214
+msgid "Account deleted successfully"
+msgstr ""
+
+#: class/Action/Admin/User.php:216
+#: class/Action/Admin/User.php:222
+#, php-format
+msgid "Unable to delete %s"
+msgstr ""
+
+#: class/Action/Admin/User.php:285
+#: class/Action/Admin/User.php:563
+#: class/Action/Admin/User.php:693
+#: class/Action/Admin/User.php:719
+msgid "Please select a valid user"
+msgstr ""
+
+#: class/Action/Admin/User.php:317
+msgid "Your bids credit has been changed"
+msgstr ""
+
+#: class/Action/Admin/User.php:319
+#, php-format
+msgid "Hello %s,<br /> admin has changed bid credit of your account from %d to %d."
+msgstr ""
+
+#: class/Action/Admin/User.php:338
+msgid "User data updated successfully"
+msgstr ""
+
+#: class/Action/Admin/User.php:408
+#, php-format
+msgid "%s can not be left blank"
+msgstr ""
+
+#: class/Action/Admin/User.php:431
+msgid "IP Address deleted successfully"
+msgstr ""
+
+#: class/Action/Admin/User.php:432
+msgid "Error while trying to delete the IP"
+msgstr ""
+
+#: class/Action/Admin/User.php:437
+msgid "IP Address Blocked successfully"
+msgstr ""
+
+#: class/Action/Admin/User.php:438
+msgid "Error while trying to block the IP address"
+msgstr ""
+
+#: class/Action/Admin/User.php:442
+msgid "IP Address Unblocked successfully"
+msgstr ""
+
+#: class/Action/Admin/User.php:443
+msgid "Error while trying to unblock the IP address"
+msgstr ""
+
+#: class/Action/Admin/User.php:484
+msgid "Remove user email from banned email list to activate the user."
+msgstr ""
+
+#: class/Action/Admin/User.php:557
+msgid "Please select a valid action"
+msgstr ""
+
+#: class/Action/Admin/User.php:642
+msgid "There was some problem while trying to perform the operation."
+msgstr ""
+
+#: class/Action/Admin/User.php:657
+msgid ""
+"The current MySQL user can not do an ALTER TABLE. Please ask your site admin to allow it.\n"
+"It is necesary to preform this operation."
+msgstr ""
+
+#: class/Action/Admin/User.php:728
+#, php-format
+msgid "Real bid : %s"
+msgstr ""
+
+#: class/Action/Admin/User.php:740
+#, php-format
+msgid "Number of item purchased %d"
+msgstr ""
+
+#: class/Action/Admin/User.php:770
+#, php-format
+msgid "The email %s is already in the banned email list."
+msgstr ""
+
+#: class/Action/Admin/User.php:776
+msgid "Email added to the banned email list."
+msgstr ""
+
+#: class/Action/Admin/User.php:785
+msgid "There is a active user account with this email, we suggest you to either delete or deactivate the user account."
+msgstr ""
+
+#: class/Action/Admin/User.php:798
+#, php-format
+msgid "Email %s not in banned email list."
+msgstr ""
+
+#: class/Action/Admin/User.php:801
+msgid "Email successfully removed from banned email list."
+msgstr ""
+
+#: class/Action/Admin/User.php:835
+msgid "Enter valid value membership duration."
+msgstr ""
+
+#: class/Action/Admin/User.php:849
+#: class/Action/Admin/User.php:957
+msgid "Error while trying to update settings."
+msgstr ""
+
+#: class/Action/Admin/User.php:874
+msgid "Please enter a message to send."
+msgstr ""
+
+#: class/Action/Admin/User.php:877
+#: class/Action/Admin/User.php:927
+msgid "Please select valid users."
+msgstr ""
+
+#: class/Action/Admin/User.php:897
+msgid "Site admin"
+msgstr ""
+
+#: class/Action/Admin/User.php:924
+msgid "Message sent sucessfully"
+msgstr ""
+
+#: class/Core/Action.php:170
+msgid "You need to login to perform this operation"
+msgstr ""
+
+#: class/Gateway/AmazonPay.php:65
+msgid "Amazon Payments"
+msgstr ""
+
+#: class/Gateway/AuthorizeNet.php:90
+msgid "Authorize.Net"
+msgstr ""
+
+#: class/Gateway/GoogleCheckout.php:114
+msgid "Google Checkout"
+msgstr ""
+
+#: class/Gateway/GoogleCheckout.php:204
+#, php-format
+msgid "Payment for %s"
+msgstr ""
+
+#: class/Gateway/Paypal.php:66
+msgid "Paypal"
+msgstr ""
+
+#: class/Gateway/Paypal.php:159
+msgid "Unable to open connection with paypal"
+msgstr ""
+
+#: class/Gateway/Paypal.php:159
+msgid "Error "
+msgstr ""
+
+#: class/Gateway/Paypal.php:159
+msgid "Error message"
+msgstr ""
+
+#: class/Gateway/TwoCheckout.php:38
+msgid "2Checkout"
+msgstr ""
+
+#: class/OfferMail/PennyAuction.php:37
+msgid "No aplicable"
+msgstr ""
+
+#: class/OfferMail/StandardAuction.php:27
+msgid "System"
+msgstr ""
+
+#: class/View/Rss.php:29
+msgid "Last created auctions"
+msgstr ""
+
+#: class/View/Rss.php:32
+msgid "Next ending auctions"
+msgstr ""
+
+#: class/View/Rss.php:37
+#, php-format
+msgid "Auctions available searching for %s"
+msgstr ""
+
+#: class/View/Rss.php:40
+#, php-format
+msgid "Auctions available in %s"
+msgstr ""
+
+#: themes/admin/adultAuctionSetting.php:7
+msgid "Adult auction setting"
+msgstr ""
+
+#: themes/admin/adultAuctionSetting.php:12
+msgid "Enable adult auctions"
+msgstr ""
+
+#: themes/admin/adultAuctionSetting.php:17
+msgid "Adult age"
+msgstr ""
+
+#: themes/admin/adultAuctionSetting.php:23
+#: themes/admin/allowBannedUsers.php:20
+#: themes/admin/auctionAutoExtension.php:31
+#: themes/admin/auctionRelisting.php:18
+#: themes/admin/bannerActivation.php:18
+msgid "Save"
+msgstr ""
+
+#: themes/admin/allowBannedUsers.php:8
+msgid "Allow Banned Lists"
+msgstr ""
+
+#: themes/admin/allowBannedUsers.php:12
+msgid "Users can ban other users from interacting in their auctions."
+msgstr ""
+
+#: themes/admin/allowBannedUsers.php:13
+msgid "You can activate or deactivate this feature."
+msgstr ""
+
+#: themes/admin/allowBannedUsers.php:14
+msgid "Activate banned lists"
+msgstr ""
+
+#: themes/admin/auctionAutoExtension.php:8
+msgid "Auction auto extension"
+msgstr ""
+
+#: themes/admin/auctionAutoExtension.php:13
+msgid "Auction end date will be automatically extended if there is a bid in last moment."
+msgstr ""
+
+#: themes/admin/auctionAutoExtension.php:15
+msgid "Last moment time (in seconds)"
+msgstr ""
+
+#: themes/admin/auctionAutoExtension.php:19
+msgid "Extend auction end time above minute(s)."
+msgstr ""
+
+#: themes/admin/auctionAutoExtension.php:21
+msgid "Auto extend auction end time for "
+msgstr ""
+
+#: themes/admin/auctionAutoExtension.php:26
+msgid "Enable auction auto extension"
+msgstr ""
+
+#: themes/admin/auctionRelisting.php:8
+msgid "Maximum auction re-listing"
+msgstr ""
+
+#: themes/admin/auctionRelisting.php:13
+msgid "Number of re-listing allowed"
+msgstr ""
+
+#: themes/admin/bannedEmails.php:8
+msgid "Banned emails management"
+msgstr ""
+
+#: themes/admin/bannedEmails.php:18
+msgid "Add this email to banned list"
+msgstr ""
+
+#: themes/admin/bannedEmails.php:29
+msgid "Email"
+msgstr ""
+
+#: themes/admin/bannedEmails.php:30
+#: themes/admin/bannedWords.php:32
+msgid "Action"
+msgstr ""
+
+#: themes/admin/bannedEmails.php:46
+msgid "Unban this email"
+msgstr ""
+
+#: themes/admin/bannedEmails.php:57
+msgid "No email in the list"
+msgstr ""
+
+#: themes/admin/bannedEmails.php:91
+#: themes/admin/bannedWords.php:90
+msgid "Page"
+msgstr ""
+
+#: themes/admin/bannedWords.php:8
+msgid "Banned words"
+msgstr ""
+
+#: themes/admin/bannedWords.php:17
+msgid "Add to banned words list"
+msgstr ""
+
+#: themes/admin/bannedWords.php:23
+msgid "You can add single words such as 'abc' or add multiple words separated by comma(,) such as 'abc,xyz'."
+msgstr ""
+
+#: themes/admin/bannedWords.php:31
+msgid "Word"
+msgstr ""
+
+#: themes/admin/bannedWords.php:48
+msgid "Unban this word"
+msgstr ""
+
+#: themes/admin/bannedWords.php:58
+msgid "No words in the list"
+msgstr ""
+
+#: themes/admin/bannerActivation.php:7
+#: themes/admin/bannerDelete.php:8
+msgid "Banner management"
+msgstr ""
+
+#: themes/admin/bannerActivation.php:12
+msgid "Display banners"
+msgstr ""
+
+#: themes/admin/bannerDelete.php:11
+msgid "Banner details"
+msgstr ""
+
+#: themes/admin/bannerDelete.php:13
+msgid "Banner type"
+msgstr ""
+
+#: themes/admin/bannerDelete.php:18
+msgid "Banner image"
+msgstr ""
+
+#: themes/admin/bannerDelete.php:26
+msgid "No image"
+msgstr ""
+
+#: themes/admin/bannerDelete.php:31
+msgid "Banner url"
+msgstr ""
+
+#: themes/admin/bannerDelete.php:35
+msgid "Banner HTML"
+msgstr ""
+
+#: themes/admin/bannerDelete.php:39
+msgid "Status"
+msgstr ""
+
+#: themes/admin/bannerDelete.php:51
+msgid "Are you sure you want to delete this record?"
+msgstr ""
+
+#: themes/admin/bannerForm.php:7
+#, php-format
+msgid "%s banner"
+msgstr ""
+
+#: themes/admin/bannerForm.php:14
+msgid "Image"
+msgstr ""
+
+#: themes/admin/bannerForm.php:21
+msgid "Current Image"
+msgstr ""
+
+#: themes/admin/bannerForm.php:21
+msgid "Current banner image"
+msgstr ""
+
+#: themes/admin/bannerForm.php:32
+msgid "Link URL"
+msgstr ""
+
+#: themes/admin/bannerForm.php:39
+msgid "HTML banner"
+msgstr ""
+
+#: themes/admin/banners.php:10
+msgid "Add new banner"
+msgstr ""
+
+#: themes/admin/banners.php:16
+msgid "Banner"
+msgstr ""
+
+#: themes/admin/banners.php:38
+msgid "HTML Banner"
+msgstr ""
+
+#: themes/admin/banners.php:46
+#: themes/admin/categoriesList.php:35
+#: themes/admin/categoryForm.php:9
+#: themes/admin/countries.php:34
+#: themes/admin/customFieldForm.php:7
+#: themes/admin/customFields.php:38
+msgid "Edit"
+msgstr ""
+
+#: themes/admin/banners.php:65
+#: themes/admin/countries.php:46
+#: themes/admin/customFields.php:43
+msgid "Deactivate"
+msgstr ""
+
+#: themes/admin/banners.php:76
+#: themes/admin/countries.php:58
+#: themes/admin/customFields.php:47
+msgid "Activate"
+msgstr ""
+
+#: themes/admin/bidIncrementSetting.php:8
+msgid "Bid Increment Setting"
+msgstr ""
+
+#: themes/admin/bidIncrementSetting.php:14
+msgid "To remove a bid incremant range, leave its values blank"
+msgstr ""
+
+#: themes/admin/bidIncrementSetting.php:22
+msgid "Bid Increment Ranges"
+msgstr ""
+
+#: themes/admin/bidIncrementSetting.php:33
+msgid "Bottom"
+msgstr ""
+
+#: themes/admin/bidIncrementSetting.php:35
+msgid "Top"
+msgstr ""
+
+#: themes/admin/bidIncrementSetting.php:37
+msgid "Increment"
+msgstr ""
+
+#: themes/admin/bidIncrementSetting.php:49
+msgid "Add new Range"
+msgstr ""
+
+#: themes/admin/captchaSetting.php:8
+msgid "reCaptcha anti-spam setting"
+msgstr ""
+
+#: themes/admin/captchaSetting.php:13
+msgid "Enable Captcha"
+msgstr ""
+
+#: themes/admin/categoriesList.php:8
+#: themes/admin/categoryDelete.php:17
+msgid "Categories"
+msgstr ""
+
+#: themes/admin/categoriesList.php:34
+msgid "Add subcategory"
+msgstr ""
+
+#: themes/admin/categoriesList.php:41
+msgid "Change to normal category"
+msgstr ""
+
+#: themes/admin/categoriesList.php:45
+msgid "Make this category special"
+msgstr ""
+
+#: themes/admin/categoriesList.php:56
+msgid "Add new"
+msgstr ""
+
+#: themes/admin/categoryDelete.php:8
+msgid "Category Management"
+msgstr ""
+
+#: themes/admin/categoryDelete.php:10
+#: themes/admin/customFieldDelete.php:10
+#: themes/admin/customPageDelete.php:11
+msgid "Details"
+msgstr ""
+
+#: themes/admin/categoryDelete.php:12
+msgid "Offers listed "
+msgstr ""
+
+#: themes/admin/categoryDelete.php:13
+msgid "Offer(s)"
+msgstr ""
+
+#: themes/admin/categoryDelete.php:13
+msgid "No offer"
+msgstr ""
+
+#: themes/admin/categoryDelete.php:16
+msgid "Subcategories under this category"
+msgstr ""
+
+#: themes/admin/categoryDelete.php:17
+msgid "No category"
+msgstr ""
+
+#: themes/admin/categoryForm.php:9
+#: themes/admin/customFieldForm.php:7
+msgid "Add"
+msgstr ""
+
+#: themes/admin/categoryForm.php:9
+msgid "category"
+msgstr ""
+
+#: themes/admin/categoryForm.php:22
+msgid "Parent"
+msgstr ""
+
+#: themes/admin/categoryForm.php:24
+msgid "Please select parent category"
+msgstr ""
+
+#: themes/admin/categoryForm.php:25
+msgid "Top label category"
+msgstr ""
+
+#: themes/admin/categoryForm.php:35
+msgid "Category name"
+msgstr ""
+
+#: themes/admin/categoryForm.php:48
+msgid "Sort order"
+msgstr ""
+
+#: themes/admin/categoryForm.php:51
+msgid "Special"
+msgstr ""
+
+#: themes/admin/changeWinnerSetting.php:7
+msgid "Change winner setting"
+msgstr ""
+
+#: themes/admin/changeWinnerSetting.php:11
+msgid "Allow seller to change winner"
+msgstr ""
+
+#: themes/admin/countries.php:7
+msgid "Country management"
+msgstr ""
+
+#: themes/admin/countries.php:13
+msgid "Country ID"
+msgstr ""
+
+#: themes/admin/countries.php:14
+msgid "Country name"
+msgstr ""
+
+#: themes/admin/countries.php:73
+msgid "No offers found"
+msgstr ""
+
+#: themes/admin/countryForm.php:7
+msgid "Edit Country"
+msgstr ""
+
+#: themes/admin/countryForm.php:11
+msgid "Country Name"
+msgstr ""
+
+#: themes/admin/currencyDisplaySettings.php:7
+msgid "Currency display setting"
+msgstr ""
+
+#: themes/admin/currencyDisplaySettings.php:11
+msgid "Currency symbol"
+msgstr ""
+
+#: themes/admin/currencyDisplaySettings.php:13
+msgid "Display currency symbol"
+msgstr ""
+
+#: themes/admin/currencyDisplaySettings.php:15
+msgid "Currency symbol before amount"
+msgstr ""
+
+#: themes/admin/currencyDisplaySettings.php:20
+msgid "Print money amounts with 2 decimal values"
+msgstr ""
+
+#: themes/admin/currencyDisplaySettings.php:24
+msgid "Only when price has a decimal part"
+msgstr ""
+
+#: themes/admin/currencyDisplaySettings.php:29
+msgid "In all cases"
+msgstr ""
+
+#: themes/admin/currencyDisplaySettings.php:36
+msgid "Update"
+msgstr ""
+
+#: themes/admin/currencyForm.php:7
+msgid "Edit currency"
+msgstr ""
+
+#: themes/admin/currencyForm.php:11
+msgid "Currency code"
+msgstr ""
+
+#: themes/admin/currencyForm.php:22
+msgid "Currency Name"
+msgstr ""
+
+#: themes/admin/customFieldDelete.php:10
+msgid "User Custom Field"
+msgstr ""
+
+#: themes/admin/customFieldDelete.php:14
+#: themes/admin/customFieldDelete.php:18
+#: themes/admin/customFieldDelete.php:22
+msgid "Yes"
+msgstr ""
+
+#: themes/admin/customFieldDelete.php:14
+#: themes/admin/customFieldDelete.php:18
+#: themes/admin/customFieldDelete.php:22
+msgid "No"
+msgstr ""
+
+#: themes/admin/customFieldDelete.php:17
+msgid "Displayed in Profile"
+msgstr ""
+
+#: themes/admin/customFieldDelete.php:21
+#: themes/admin/customFieldForm.php:47
+#: themes/admin/customFields.php:19
+msgid "Mandatory"
+msgstr ""
+
+#: themes/admin/customFieldDelete.php:25
+#: themes/admin/customFieldForm.php:36
+#: themes/admin/customFields.php:18
+msgid "Type"
+msgstr ""
+
+#: themes/admin/customFieldDelete.php:37
+msgid "Are you sure you want to delete this field?"
+msgstr ""
+
+#: themes/admin/customFieldDelete.php:39
+msgid "Delete Custom Field"
+msgstr ""
+
+#: themes/admin/customFieldForm.php:7
+msgid "Custom Field"
+msgstr ""
+
+#: themes/admin/customFieldForm.php:11
+msgid "Field Name"
+msgstr ""
+
+#: themes/admin/customFieldForm.php:23
+msgid "Help note"
+msgstr ""
+
+#: themes/admin/customFieldForm.php:35
+msgid "Field Options"
+msgstr ""
+
+#: themes/admin/customFieldForm.php:51
+msgid "Displayed in User Profile"
+msgstr ""
+
+#: themes/admin/customFields.php:8
+msgid "User Custom Field Management"
+msgstr ""
+
+#: themes/admin/customFields.php:11
+msgid "Add new Custom Field"
+msgstr ""
+
+#: themes/admin/customFields.php:17
+msgid "Name"
+msgstr ""
+
+#: themes/admin/customFields.php:20
+msgid "Show in Profile"
+msgstr ""
+
+#: themes/admin/customPageDelete.php:8
+msgid "Custom Page Management"
+msgstr ""
+
+#: themes/admin/customPageDelete.php:11
+msgid "Custom Page"
+msgstr ""
+
+#: themes/admin/customPageDelete.php:13
+msgid "Date Created"
+msgstr ""
+
+#: themes/admin/customPageDelete.php:22
+msgid "Are you sure you want to delete this page?"
+msgstr ""
+
+#: themes/admin/customPageDelete.php:24
+msgid "Delete Custom Page"
+msgstr ""
+
+#: themes/admin/customPageForm.php:21
+msgid "Custom Page data"
+msgstr ""
+
+#: themes/admin/customPageForm.php:24
+msgid "Thematic"
+msgstr ""
+
+#: themes/admin/customPageForm.php:26
+msgid "Please select Thematic"
+msgstr ""
+
+#: themes/admin/customPageForm.php:43
+msgid "Page Date"
+msgstr ""
+
+#: themes/admin/customPageForm.php:56
+msgid "Page Title"
+msgstr ""
+
+#: themes/admin/customPageForm.php:59
+msgid "Page data"
+msgstr ""
+
+#: themes/admin/customPages.php:11
+msgid "Add new page"
+msgstr ""
+
+#: themes/admin/customPages.php:12
+msgid "List available sections"
+msgstr ""
+
+#: themes/admin/customPages.php:13
+msgid "Add new section"
+msgstr ""
+
+#: themes/admin/customPages.php:20
+msgid "Page title"
+msgstr ""
+
+#: themes/admin/customPages.php:21
+msgid "Section"
+msgstr ""
+
+#: themes/admin/customPages.php:22
+msgid "Date created"
+msgstr ""
+
+#: themes/admin/defaultCurrency.php:8
+msgid "Site default currency"
+msgstr ""
+
+#: themes/admin/defaultCurrency.php:13
+msgid "Default Currency"
+msgstr ""
+
+#: themes/admin/defaultCurrency.php:36
+msgid "Add new currency"
+msgstr ""
+
+#: themes/admin/defaultCurrency.php:45
+msgid "Currency ID"
+msgstr ""
+
+#: themes/admin/defaultCurrency.php:46
+msgid "Currency name"
+msgstr ""
+
+#: themes/admin/defaultCurrency.php:73
+msgid "No currency found"
+msgstr ""
+
+#: themes/admin/defaultLanguage.php:8
+msgid "Default Language setting"
+msgstr ""
+
+#: themes/admin/defaultLanguage.php:12
+msgid "Site default language"
+msgstr ""
+
+#: themes/admin/extraFeature.php:8
+msgid "Extra features"
+msgstr ""
+
+#: themes/admin/extraFeature.php:10
+msgid "This feature is not available in GPL Basic version."
+msgstr ""
+
+#: themes/admin/header.php:56
+msgid "Welcome"
+msgstr ""
+
+#: themes/admin/header.php:58
+msgid "website"
+msgstr ""
+
+#: themes/admin/header.php:63
+msgid "Admin home"
+msgstr ""
+
+#: themes/admin/header.php:64
+msgid "Site home"
+msgstr ""
+
+#: themes/admin/header.php:65
+msgid "Support"
+msgstr ""
+
+#: themes/admin/homeRefresh.php:8
+msgid "Homepage automatic refresh"
+msgstr ""
+
+#: themes/admin/homeRefresh.php:12
+msgid "Time to refresh"
+msgstr ""
+
+#: themes/admin/homeRefresh.php:13
+msgid "seconds"
+msgstr ""
+
+#: themes/admin/homeRefresh.php:15
+msgid "NOTICE: it is not recommended to set this value to less than 10 seconds, because this can flood your server"
+msgstr ""
+
+#: themes/admin/index.php:8
+msgid "Current Status"
+msgstr ""
+
+#: themes/admin/index.php:11
+msgid "Auctions"
+msgstr ""
+
+#: themes/admin/index.php:15
+#: themes/admin/index.php:34
+#: themes/admin/index.php:55
+msgid "Total"
+msgstr ""
+
+#: themes/admin/index.php:17
+msgid "Drafts"
+msgstr ""
+
+#: themes/admin/index.php:30
+msgid "Users"
+msgstr ""
+
+#: themes/admin/index.php:36
+msgid "Admins"
+msgstr ""
+
+#: themes/admin/index.php:51
+msgid "Invoices"
+msgstr ""
+
+#: themes/admin/index.php:57
+msgid "Not send"
+msgstr ""
+
+#: themes/admin/index.php:72
+msgid "Information about versions"
+msgstr ""
+
+#: themes/admin/index.php:76
+msgid "Current Installed"
+msgstr ""
+
+#: themes/admin/index.php:77
+msgid "Available Version"
+msgstr ""
+
+#: themes/admin/languageEdit.php:7
+msgid "Language"
+msgstr ""
+
+#: themes/admin/languageEdit.php:11
+#: themes/admin/languages.php:30
+msgid "Language ID"
+msgstr ""
+
+#: themes/admin/languageEdit.php:13
+msgid "Use <a href=\"http://www.iana.org/assignments/language-subtag-registry\">ISO-639</a> and <a href=\"http://www.ietf.org/rfc/rfc4646.txt\">RFC4646</a> standard codes."
+msgstr ""
+
+#: themes/admin/languageEdit.php:15
+#: themes/admin/languages.php:31
+msgid "Language Name"
+msgstr ""
+
+#: themes/admin/languageEdit.php:18
+msgid "Orientation"
+msgstr ""
+
+#: themes/admin/languageEdit.php:21
+msgid "Left to right"
+msgstr ""
+
+#: themes/admin/languageEdit.php:24
+msgid "Right to left"
+msgstr ""
+
+#: themes/admin/languages.php:8
+msgid "Languages Management"
+msgstr ""
+
+#: themes/admin/languages.php:11
+msgid "Add new language"
+msgstr ""
+
+#: themes/admin/languages.php:16
+msgid "Display the language selection in the header of the site"
+msgstr ""
+
+#: themes/admin/languages.php:48
+msgid "Not editable, core language."
+msgstr ""
+
+#: themes/admin/languages.php:70
+msgid "Disable"
+msgstr ""
+
+#: themes/admin/languages.php:80
+msgid "Enable"
+msgstr ""
+
+#: themes/admin/massMail.php:7
+msgid "Send message to users"
+msgstr ""
+
+#: themes/admin/massMail.php:12
+msgid "Send internal message to"
+msgstr ""
+
+#: themes/admin/massMail.php:14
+msgid "All users"
+msgstr ""
+
+#: themes/admin/massMail.php:15
+msgid "Active users"
+msgstr ""
+
+#: themes/admin/massMail.php:16
+msgid "Non active users"
+msgstr ""
+
+#: themes/admin/massMail.php:21
+msgid "Subject"
+msgstr ""
+
+#: themes/admin/massMail.php:25
+msgid "Message"
+msgstr ""
+
+#: themes/admin/massMail.php:29
+msgid "Send a warning email too"
+msgstr ""
+
+#: themes/admin/massMail.php:35
+msgid "Send message"
+msgstr ""
+
+#: themes/admin/maxCustomPages.php:8
+msgid "Max custom page setting"
+msgstr ""
+
+#: themes/admin/maxCustomPages.php:12
+msgid "Max listed custom pages"
+msgstr ""
+
+#: themes/admin/maxCustomPages.php:16
+msgid "Maximum number of custom pages listed on thematic page."
+msgstr ""
+
+#: themes/admin/maxImages.php:8
+msgid "Image gallery settings"
+msgstr ""
+
+#: themes/admin/maxImages.php:12
+msgid "Maximum number of images "
+msgstr ""
+
+#: themes/admin/maxImages.php:16
+msgid "Number of images allowed in image gallery in auctions."
+msgstr ""
+
+#: themes/admin/maxImageSize.php:8
+msgid "File Upload settings"
+msgstr ""
+
+#: themes/admin/maxImageSize.php:12
+msgid "Max Upload size (in KB)"
+msgstr ""
+
+#: themes/admin/maxImageSize.php:15
+msgid "For images, documents, mp3s, compressed files, or any uploaded file."
+msgstr ""
+
+#: themes/admin/maxImageSize.php:16
+msgid "Notice that you can not go above PHP upload_max_filesize setting in your server."
+msgstr ""
+
+#: themes/admin/maxImageSize.php:17
+msgid "Current PHP setting"
+msgstr ""
+
+#: themes/admin/membershipSetting.php:8
+msgid "Site Membership Settings"
+msgstr ""
+
+#: themes/admin/membershipSetting.php:12
+msgid "Membership duration (in days)"
+msgstr ""
+
+#: themes/admin/membershipSetting.php:14
+msgid "Activate membership fee"
+msgstr ""
+
+#: themes/admin/menu.php:5
+msgid "Set up"
+msgstr ""
+
+#: themes/admin/menu.php:8
+msgid "Basic info"
+msgstr ""
+
+#: themes/admin/menu.php:9
+msgid "Languages"
+msgstr ""
+
+#: themes/admin/menu.php:11
+msgid "Site design"
+msgstr ""
+
+#: themes/admin/menu.php:12
+msgid "Google Analytics"
+msgstr ""
+
+#: themes/admin/menu.php:13
+#: themes/admin/sslSetting.php:8
+msgid "SSL setting"
+msgstr ""
+
+#: themes/admin/menu.php:14
+#: themes/admin/siteProfile.php:8
+msgid "Site profiles"
+msgstr ""
+
+#: themes/admin/menu.php:15
+msgid "Currency display options"
+msgstr ""
+
+#: themes/admin/menu.php:21
+msgid "Preferences"
+msgstr ""
+
+#: themes/admin/menu.php:24
+msgid "Countries"
+msgstr ""
+
+#: themes/admin/menu.php:25
+msgid "Default currency"
+msgstr ""
+
+#: themes/admin/menu.php:26
+msgid "Default Timezone"
+msgstr ""
+
+#: themes/admin/menu.php:27
+msgid "Meta tags"
+msgstr ""
+
+#: themes/admin/menu.php:29
+msgid "Time for feedback setting"
+msgstr ""
+
+#: themes/admin/menu.php:30
+msgid "Max items listing"
+msgstr ""
+
+#: themes/admin/menu.php:31
+msgid "File upload settings"
+msgstr ""
+
+#: themes/admin/menu.php:32
+msgid "Image gallery setting"
+msgstr ""
+
+#: themes/admin/menu.php:34
+msgid "AddThis share button setting"
+msgstr ""
+
+#: themes/admin/menu.php:35
+msgid "Google map setting"
+msgstr ""
+
+#: themes/admin/menu.php:36
+msgid "Fraud report setting"
+msgstr ""
+
+#: themes/admin/menu.php:46
+msgid "Category display order"
+msgstr ""
+
+#: themes/admin/menu.php:55
+msgid "Users management"
+msgstr ""
+
+#: themes/admin/menu.php:56
+msgid "Membership settings"
+msgstr ""
+
+#: themes/admin/menu.php:57
+msgid "Custom fields"
+msgstr ""
+
+#: themes/admin/menu.php:58
+msgid "User signup confirmation"
+msgstr ""
+
+#: themes/admin/menu.php:59
+msgid "Default new  user type"
+msgstr ""
+
+#: themes/admin/menu.php:60
+msgid "Initial bid credit for Penny auctions"
+msgstr ""
+
+#: themes/admin/menu.php:72
+#: themes/admin/offers.php:8
+msgid "Auctions management"
+msgstr ""
+
+#: themes/admin/menu.php:73
+msgid "Auction types"
+msgstr ""
+
+#: themes/admin/menu.php:74
+msgid "Change winner settings"
+msgstr ""
+
+#: themes/admin/menu.php:75
+msgid "Custom auction fields"
+msgstr ""
+
+#: themes/admin/menu.php:76
+#: themes/admin/offerForm.php:329
+#: themes/admin/offerForm.php:353
+msgid "Bid increment"
+msgstr ""
+
+#: themes/admin/menu.php:77
+msgid "Payment options"
+msgstr ""
+
+#: themes/admin/menu.php:78
+msgid "Auction Relisting"
+msgstr ""
+
+#: themes/admin/menu.php:81
+msgid "Shipping methods"
+msgstr ""
+
+#: themes/admin/menu.php:88
+msgid "Web store"
+msgstr ""
+
+#: themes/admin/menu.php:91
+msgid "Enable/Disable webstores"
+msgstr ""
+
+#: themes/admin/menu.php:92
+msgid "Store sizes management"
+msgstr ""
+
+#: themes/admin/menu.php:93
+msgid "Stores management"
+msgstr ""
+
+#: themes/admin/menu.php:102
+msgid "General Activation"
+msgstr ""
+
+#: themes/admin/menu.php:103
+msgid "Edit fees descriptions"
+msgstr ""
+
+#: themes/admin/menu.php:104
+msgid "User Signup fee"
+msgstr ""
+
+#: themes/admin/menu.php:105
+msgid "User Membership"
+msgstr ""
+
+#: themes/admin/menu.php:106
+msgid "Auction fee"
+msgstr ""
+
+#: themes/admin/menu.php:107
+msgid "Picture Gallery fee"
+msgstr ""
+
+#: themes/admin/menu.php:108
+msgid "Youtube video fee"
+msgstr ""
+
+#: themes/admin/menu.php:109
+msgid "Reserve Price fee"
+msgstr ""
+
+#: themes/admin/menu.php:110
+msgid "Buy Now fee"
+msgstr ""
+
+#: themes/admin/menu.php:112
+msgid "Home featured fee"
+msgstr ""
+
+#: themes/admin/menu.php:113
+msgid "Category featured fee"
+msgstr ""
+
+#: themes/admin/menu.php:114
+msgid "Offer bold fee"
+msgstr ""
+
+#: themes/admin/menu.php:116
+msgid "Webstore setup fee"
+msgstr ""
+
+#: themes/admin/menu.php:117
+msgid "Featured store fee"
+msgstr ""
+
+#: themes/admin/menu.php:118
+msgid "Store size fee"
+msgstr ""
+
+#: themes/admin/menu.php:119
+msgid "Bid packs for Penny Auction"
+msgstr ""
+
+#: themes/admin/menu.php:125
+msgid "Accounting"
+msgstr ""
+
+#: themes/admin/menu.php:128
+msgid "Site payment type"
+msgstr ""
+
+#: themes/admin/menu.php:129
+msgid "Payment gateways settings"
+msgstr ""
+
+#: themes/admin/menu.php:130
+msgid "Invoice settings"
+msgstr ""
+
+#: themes/admin/menu.php:131
+msgid "Invoice header and footer"
+msgstr ""
+
+#: themes/admin/menu.php:132
+msgid "Invoice management"
+msgstr ""
+
+#: themes/admin/menu.php:133
+msgid "Send invoices"
+msgstr ""
+
+#: themes/admin/menu.php:139
+msgid "Advertisment"
+msgstr ""
+
+#: themes/admin/menu.php:142
+msgid "Banner activation"
+msgstr ""
+
+#: themes/admin/menu.php:150
+msgid "Custom Sections &amp; Pages"
+msgstr ""
+
+#: themes/admin/menu.php:153
+msgid "Sections"
+msgstr ""
+
+#: themes/admin/menu.php:154
+msgid "Custom pages"
+msgstr ""
+
+#: themes/admin/menu.php:155
+msgid "Max page listing"
+msgstr ""
+
+#: themes/admin/menu.php:161
+msgid "Statistics"
+msgstr ""
+
+#: themes/admin/menu.php:164
+msgid "Statistics for an interval"
+msgstr ""
+
+#: themes/admin/menu.php:165
+msgid "Complete statistics"
+msgstr ""
+
+#: themes/admin/metaSettings.php:8
+msgid "Meta keywords and Description"
+msgstr ""
+
+#: themes/admin/metaSettings.php:17
+msgid "Meta keywords"
+msgstr ""
+
+#: themes/admin/metaSettings.php:19
+msgid "Meta Description"
+msgstr ""
+
+#: themes/admin/newUserDefaultType.php:8
+msgid "Default new user type management"
+msgstr ""
+
+#: themes/admin/newUserDefaultType.php:13
+msgid "Default new user Type:"
+msgstr ""
+
+#: themes/admin/newUserDefaultType.php:17
+msgid "Buyer only"
+msgstr ""
+
+#: themes/admin/newUserDefaultType.php:22
+msgid "Totally remove the Sell link from main menu"
+msgstr ""
+
+#: themes/admin/newUserDefaultType.php:28
+msgid "Buyer+Seller"
+msgstr ""
+
+#: themes/admin/offerDelete.php:7
+#, php-format
+msgid "Delete offer \"%s\""
+msgstr ""
+
+#: themes/admin/offerDelete.php:15
+msgid "Offer"
+msgstr ""
+
+#: themes/admin/offerDelete.php:20
+msgid "Description"
+msgstr ""
+
+#: themes/admin/offerDelete.php:25
+msgid "Offer type"
+msgstr ""
+
+#: themes/admin/offerDelete.php:30
+msgid "Create on"
+msgstr ""
+
+#: themes/admin/offerDelete.php:35
+#: themes/admin/offers.php:70
+msgid "Ending on"
+msgstr ""
+
+#: themes/admin/offerDelete.php:40
+#: themes/admin/offerForm.php:269
+msgid "Start price"
+msgstr ""
+
+#: themes/admin/offerDelete.php:44
+msgid "Current price"
+msgstr ""
+
+#: themes/admin/offerDelete.php:49
+msgid "Draft"
+msgstr ""
+
+#: themes/admin/offerDelete.php:73
+msgid "Go to offer details"
+msgstr ""
+
+#: themes/admin/offerForm.php:22
+#, php-format
+msgid "Edit %s "
+msgstr ""
+
+#: themes/admin/offerForm.php:28
+msgid "Item title"
+msgstr "Titel"
+
+#: themes/admin/offerForm.php:30
+msgid "(min 6 chars)"
+msgstr "(Mindestens 6 Zeichen)"
+
+#: themes/admin/offerForm.php:33
+#: themes/admin/offerForm.php:123
+#: themes/admin/offerForm.php:188
+#: themes/admin/offerForm.php:298
+#: themes/admin/offerForm.php:324
+#: themes/admin/offerForm.php:415
+#: themes/admin/offerForm.php:526
+#: themes/admin/offerForm.php:537
+#: themes/admin/offerForm.php:548
+msgid "Warning"
+msgstr "Warnung"
+
+#: themes/admin/offerForm.php:33
+#: themes/admin/offerForm.php:123
+#: themes/admin/offerForm.php:188
+#: themes/admin/offerForm.php:298
+#: themes/admin/offerForm.php:324
+#: themes/admin/offerForm.php:415
+#: themes/admin/offerForm.php:526
+#: themes/admin/offerForm.php:537
+#: themes/admin/offerForm.php:548
+msgid "feature with fee charge"
+msgstr ""
+
+#: themes/admin/offerForm.php:37
+msgid "Category"
+msgstr ""
+
+#: themes/admin/offerForm.php:50
+msgid "Item Description"
+msgstr ""
+
+#: themes/admin/offerForm.php:59
+msgid "Current image"
+msgstr ""
+
+#: themes/admin/offerForm.php:64
+#: themes/admin/offerForm.php:108
+#: themes/admin/offerForm.php:147
+msgid "Remove"
+msgstr ""
+
+#: themes/admin/offerForm.php:72
+msgid "Default image"
+msgstr ""
+
+#: themes/admin/offerForm.php:74
+msgid "Upload image"
+msgstr ""
+
+#: themes/admin/offerForm.php:82
+msgid "Picture gallery"
+msgstr ""
+
+#: themes/admin/offerForm.php:85
+#, php-format
+msgid "It can contain up to %d images"
+msgstr ""
+
+#: themes/admin/offerForm.php:119
+msgid "Accepted formats: GIF, JPG, PNG"
+msgstr ""
+
+#: themes/admin/offerForm.php:131
+msgid "Current File"
+msgstr ""
+
+#: themes/admin/offerForm.php:132
+msgid "KB"
+msgstr ""
+
+#: themes/admin/offerForm.php:138
+msgid "Upload documentation"
+msgstr ""
+
+#: themes/admin/offerForm.php:140
+msgid "Upload file"
+msgstr ""
+
+#: themes/admin/offerForm.php:158
+msgid "Youtube video"
+msgstr ""
+
+#: themes/admin/offerForm.php:162
+msgid "URL"
+msgstr ""
+
+#: themes/admin/offerForm.php:184
+#, php-format
+msgid "For example:%s"
+msgstr ""
+
+#: themes/admin/offerForm.php:193
+msgid "Auction's type"
+msgstr ""
+
+#: themes/admin/offerForm.php:271
+#: themes/admin/offerForm.php:293
+#: themes/admin/offerForm.php:319
+#: themes/admin/offerForm.php:344
+msgid "Currencies Converter"
+msgstr ""
+
+#: themes/admin/offerForm.php:277
+msgid "Reserve price"
+msgstr ""
+
+#: themes/admin/offerForm.php:303
+msgid "Buy now"
+msgstr ""
+
+#: themes/admin/offerForm.php:334
+msgid "Use the built-in proportional increments table"
+msgstr ""
+
+#: themes/admin/offerForm.php:340
+msgid "Use your custom fixed increment"
+msgstr ""
+
+#: themes/admin/offerForm.php:371
+msgid "Starting date"
+msgstr ""
+
+#: themes/admin/offerForm.php:378
+msgid "at"
+msgstr ""
+
+#: themes/admin/offerForm.php:382
+msgid "or don't define start time yet"
+msgstr ""
+
+#: themes/admin/offerForm.php:391
+msgid "Duration"
+msgstr ""
+
+#: themes/admin/offerForm.php:397
+msgid "Days"
+msgstr ""
+
+#: themes/admin/offerForm.php:399
+msgid "Hours"
+msgstr ""
+
+#: themes/admin/offerForm.php:401
+msgid "Minutes"
+msgstr ""
+
+#: themes/admin/offerForm.php:411
+msgid "Auction relisting"
+msgstr ""
+
+#: themes/admin/offerForm.php:418
+msgid ""
+"You can choose to automatically relist your auction, if no bids have been posted.\n"
+"    Enter the number of times you want your auction to be relisted (enter zero or leave blank if you don't want the automatic relisting to be applied to this auction).\n"
+"    Maximum number of allowed relistings: "
+msgstr ""
+
+#: themes/admin/offerForm.php:429
+msgid "Shipping conditions"
+msgstr ""
+
+#: themes/admin/offerForm.php:446
+msgid "Shipping"
+msgstr ""
+
+#: themes/admin/offerForm.php:470
+msgid "International shipping"
+msgstr ""
+
+#: themes/admin/offerForm.php:475
+msgid "Shipping terms"
+msgstr ""
+
+#: themes/admin/offerForm.php:482
+msgid "Payment methods"
+msgstr ""
+
+#: themes/admin/offerForm.php:503
+msgid "Webstore"
+msgstr ""
+
+#: themes/admin/offerForm.php:505
+msgid "Display in my webstore"
+msgstr ""
+
+#: themes/admin/offerForm.php:516
+msgid "Visibility"
+msgstr ""
+
+#: themes/admin/offerForm.php:517
+msgid "To increase your auction's visibility you may want to choose among the following options:"
+msgstr ""
+
+#: themes/admin/offerForm.php:520
+msgid "Home page featured item"
+msgstr ""
+
+#: themes/admin/offerForm.php:523
+msgid "Your item will randomly appear in the home page."
+msgstr ""
+
+#: themes/admin/offerForm.php:531
+msgid "Category featured item"
+msgstr ""
+
+#: themes/admin/offerForm.php:534
+msgid "Your item will randomly appear in the relative category page."
+msgstr ""
+
+#: themes/admin/offerForm.php:542
+msgid "Bold item"
+msgstr ""
+
+#: themes/admin/offerForm.php:545
+msgid "Your item's title will always appear in bold."
+msgstr ""
+
+#: themes/admin/offerForm.php:557
+msgid "Other Information"
+msgstr ""
+
+#: themes/admin/offerForm.php:576
+msgid "Save as draft, don't publish"
+msgstr ""
+
+#: themes/admin/offerForm.php:582
+msgid "Update Auction"
+msgstr ""
+
+#: themes/admin/offers.php:12
+#, php-format
+msgid "%d offers found in database"
+msgstr ""
+
+#: themes/admin/offers.php:24
+msgid "Filter offers"
+msgstr ""
+
+#: themes/admin/offers.php:26
+msgid "All"
+msgstr ""
+
+#: themes/admin/offers.php:42
+msgid "Export to excel"
+msgstr ""
+
+#: themes/admin/offers.php:65
+msgid "Title"
+msgstr ""
+
+#: themes/admin/offers.php:66
+#: themes/admin/offerTypes.php:15
+msgid "Auction type"
+msgstr ""
+
+#: themes/admin/offers.php:67
+msgid "Adult auction"
+msgstr ""
+
+#: themes/admin/offers.php:68
+msgid "Owner"
+msgstr ""
+
+#: themes/admin/offers.php:69
+msgid "Created on"
+msgstr ""
+
+#: themes/admin/offerTypes.php:8
+msgid "Auction's types"
+msgstr ""
+
+#: themes/admin/offerTypes.php:16
+msgid "Active in site"
+msgstr ""
+
+#: themes/admin/offerTypes.php:17
+msgid "Active in webstore"
+msgstr ""
+
+#: themes/admin/payMethodForm.php:9
+msgid "payment options"
+msgstr ""
+
+#: themes/admin/payMethodForm.php:13
+msgid "Payment option name"
+msgstr ""
+
+#: themes/admin/payMethodForm.php:26
+msgid "Active:"
+msgstr ""
+
+#: themes/admin/settings.php:8
+msgid "General Settings"
+msgstr ""
+
+#: themes/admin/settings.php:13
+msgid "Site name"
+msgstr ""
+
+#: themes/admin/settings.php:15
+msgid "Email for \"from\" field"
+msgstr ""
+
+#: themes/admin/settings.php:17
+msgid "Admin Email"
+msgstr ""
+
+#: themes/admin/settings.php:20
+msgid "phpBB URL"
+msgstr ""
+
+#: themes/admin/settings.php:23
+msgid "Send BCC of all mails to the admin"
+msgstr ""
+
+#: themes/admin/settings.php:25
+msgid "Warning, this includes absolutelly all emails sent by the system."
+msgstr ""
+
+#: themes/admin/settings.php:28
+msgid "BCC email"
+msgstr ""
+
+#: themes/admin/settings.php:30
+msgid "Notice: it is advised to use a different mail id for this purpose as a copy of each mail will be sent by system."
+msgstr ""
+
+#: themes/admin/shipOptionDelete.php:7
+msgid "Delete shipping option"
+msgstr ""
+
+#: themes/admin/shipOptionDelete.php:13
+msgid "Shipping method id"
+msgstr ""
+
+#: themes/admin/shipOptionDelete.php:17
+msgid "Shipping method name"
+msgstr ""
+
+#: themes/admin/shipOptionDelete.php:36
+msgid "Are you sure you want to delete this shipping option?"
+msgstr ""
+
+#: themes/admin/shippingOptions.php:8
+msgid "Shipping methods management"
+msgstr ""
+
+#: themes/admin/shippingOptions.php:11
+#: themes/admin/shippingOptionsForm.php:7
+msgid "Add new shipping method"
+msgstr ""
+
+#: themes/admin/shippingOptions.php:16
+msgid "Shipping option name"
+msgstr ""
+
+#: themes/admin/shippingOptionsForm.php:7
+msgid "Edit shipping method"
+msgstr ""
+
+#: themes/admin/shippingOptionsForm.php:16
+msgid "Shipping Method Title"
+msgstr ""
+
+#: themes/admin/shippingOptionsForm.php:19
+msgid "Description "
+msgstr ""
+
+#: themes/admin/siteDesignSettings.php:8
+msgid "Site Design Settings"
+msgstr ""
+
+#: themes/admin/siteDesignSettings.php:12
+msgid "Current Logo"
+msgstr ""
+
+#: themes/admin/siteDesignSettings.php:13
+msgid "Site logo"
+msgstr ""
+
+#: themes/admin/siteDesignSettings.php:16
+msgid "Site Logo"
+msgstr ""
+
+#: themes/admin/siteDesignSettings.php:19
+msgid "Theme"
+msgstr ""
+
+#: themes/admin/siteDesignSettings.php:26
+msgid "Site Home"
+msgstr ""
+
+#: themes/admin/siteProfile.php:12
+msgid "Using predefined site profiles you can easily apply a common configuration in just one click."
+msgstr ""
+
+#: themes/admin/siteProfile.php:17
+msgid "Profile name"
+msgstr ""
+
+#: themes/admin/siteProfile.php:18
+msgid "Profile detail"
+msgstr ""
+
+#: themes/admin/siteProfile.php:34
+msgid "Apply this profile"
+msgstr ""
+
+#: themes/admin/sslSetting.php:14
+msgid "Enable SSL"
+msgstr ""
+
+#: themes/admin/sslSetting.php:23
+msgid "SSL only in the login page"
+msgstr ""
+
+#: themes/admin/statistics.php:20
+msgid "Statistics for a interval"
+msgstr ""
+
+#: themes/admin/statistics.php:25
+msgid "From"
+msgstr ""
+
+#: themes/admin/statistics.php:31
+msgid "To"
+msgstr ""
+
+#: themes/admin/statistics.php:36
+msgid "Show statistics"
+msgstr ""
+
+#: themes/admin/statistics.php:48
+msgid "Closed"
+msgstr ""
+
+#: themes/admin/statistics.php:49
+msgid "Sold"
+msgstr ""
+
+#: themes/admin/statistics.php:66
+msgid "Registered"
+msgstr ""
+
+#: themes/admin/statistics.php:84
+msgid "Invoices sent"
+msgstr ""
+
+#: themes/admin/statistics.php:85
+msgid "Invoices paid"
+msgstr ""
+
+#: themes/admin/statistics.php:86
+msgid "Total amount"
+msgstr ""
+
+#: themes/admin/statistics.php:87
+msgid "Amount paid"
+msgstr ""
+
+#: themes/admin/statisticsAll.php:7
+msgid "Complete site statistics"
+msgstr ""
+
+#: themes/admin/statisticsAll.php:22
+msgid "Month"
+msgstr ""
+
+#: themes/admin/statisticsAll.php:23
+msgid "Active auctions"
+msgstr ""
+
+#: themes/admin/statisticsAll.php:24
+msgid "Closed auctions"
+msgstr ""
+
+#: themes/admin/statisticsAll.php:25
+msgid "Sold items"
+msgstr ""
+
+#: themes/admin/thematicDelete.php:8
+#: themes/admin/thematics.php:8
+msgid "Custom Section Management"
+msgstr ""
+
+#: themes/admin/thematicDelete.php:13
+msgid "Custom Pages "
+msgstr ""
+
+#: themes/admin/thematicDelete.php:14
+msgid "page(s)"
+msgstr ""
+
+#: themes/admin/thematicDelete.php:14
+msgid "No custom page"
+msgstr ""
+
+#: themes/admin/thematicDelete.php:17
+#: themes/admin/thematicForm.php:28
+#: themes/admin/thematics.php:19
+msgid "In Menu"
+msgstr ""
+
+#: themes/admin/thematicDelete.php:22
+#: themes/admin/thematicForm.php:31
+#: themes/admin/thematics.php:20
+msgid "In Footer"
+msgstr ""
+
+#: themes/admin/thematicDelete.php:27
+msgid "In Home Column "
+msgstr ""
+
+#: themes/admin/thematicForm.php:14
+msgid "Section Name"
+msgstr ""
+
+#: themes/admin/thematicForm.php:27
+msgid "Section Options"
+msgstr ""
+
+#: themes/admin/thematicForm.php:34
+#: themes/admin/thematics.php:21
+msgid "In Home Column"
+msgstr ""
+
+#: themes/admin/thematics.php:12
+msgid "List available pages"
+msgstr ""
+
+#: themes/admin/thematics.php:13
+msgid "Add new custom page"
+msgstr ""
+
+#: themes/admin/timeToFeedback.php:8
+msgid "Days allowed to send feedback"
+msgstr ""
+
+#: themes/admin/timeToFeedback.php:13
+msgid "Number of days allowed"
+msgstr ""
+
+#: themes/admin/timeToFeedback.php:14
+msgid "days"
+msgstr ""
+
+#: themes/admin/timezones.php:8
+msgid "Site default timezone"
+msgstr ""
+
+#: themes/admin/timezones.php:29
+#, php-format
+msgid "The current timezone setting is %s , and the local time is %s."
+msgstr ""
+
+#: themes/admin/timezones.php:30
+msgid "NOTICE:"
+msgstr ""
+
+#: themes/admin/timezones.php:31
+msgid "If you change the current timezone to a east one, current auction's dates can get corrupted."
+msgstr ""
+
+#: themes/admin/timezones.php:32
+msgid "For that reason we only recommend doing so with no auctions in your site."
+msgstr ""
+
+#: themes/admin/useGoogleTranslate.php:7
+msgid "Google translations"
+msgstr ""
+
+#: themes/admin/useGoogleTranslate.php:11
+msgid "If enabled, the item's title and description of each auction will be translated into the visitor's language."
+msgstr ""
+
+#: themes/admin/useGoogleTranslate.php:13
+msgid "Enable Google translations"
+msgstr ""
+
+#: themes/admin/userBids.php:8
+#: themes/admin/userDelete.php:7
+#: themes/admin/userIP.php:8
+#: themes/admin/userOffers.php:8
+msgid "User Management"
+msgstr ""
+
+#: themes/admin/userBids.php:11
+msgid "Bids by "
+msgstr ""
+
+#: themes/admin/userBids.php:16
+msgid "Item"
+msgstr ""
+
+#: themes/admin/userBids.php:17
+msgid "Bid amount"
+msgstr ""
+
+#: themes/admin/userBids.php:18
+msgid "Bid date"
+msgstr ""
+
+#: themes/admin/userBids.php:19
+#: themes/admin/userFeedbacks.php:24
+#: themes/admin/userFeedbacks.php:72
+msgid "Comment"
+msgstr ""
+
+#: themes/admin/userBids.php:42
+msgid "No bids found"
+msgstr ""
+
+#: themes/admin/userDelete.php:9
+msgid "User details"
+msgstr ""
+
+#: themes/admin/userDelete.php:16
+#: themes/admin/userSuspend.php:17
+msgid "User ID"
+msgstr ""
+
+#: themes/admin/userDelete.php:21
+#: themes/admin/userForm.php:39
+#: themes/admin/userSuspend.php:21
+msgid "Password"
+msgstr ""
+
+#: themes/admin/userDelete.php:31
+#: themes/admin/userList.php:90
+#: themes/admin/userSuspend.php:29
+msgid "E-mail"
+msgstr ""
+
+#: themes/admin/userDelete.php:36
+#: themes/admin/userSuspend.php:33
+msgid "Birthday"
+msgstr ""
+
+#: themes/admin/userDelete.php:41
+#: themes/admin/userForm.php:86
+#: themes/admin/userSuspend.php:37
+msgid "Address"
+msgstr ""
+
+#: themes/admin/userDelete.php:45
+#: themes/admin/userForm.php:110
+#: themes/admin/userList.php:89
+#: themes/admin/userSuspend.php:41
+msgid "Country"
+msgstr ""
+
+#: themes/admin/userDelete.php:50
+#: themes/admin/userForm.php:104
+#: themes/admin/userSuspend.php:45
+msgid "ZIP/Post Code"
+msgstr ""
+
+#: themes/admin/userDelete.php:55
+#: themes/admin/userForm.php:92
+#: themes/admin/userSuspend.php:49
+msgid "City"
+msgstr ""
+
+#: themes/admin/userDelete.php:60
+#: themes/admin/userForm.php:98
+#: themes/admin/userSuspend.php:53
+msgid "State/Province"
+msgstr ""
+
+#: themes/admin/userDelete.php:65
+#: themes/admin/userForm.php:121
+#: themes/admin/userSuspend.php:57
+msgid "Telephone"
+msgstr ""
+
+#: themes/admin/userDelete.php:70
+#: themes/admin/userSuspend.php:61
+msgid "Balance"
+msgstr ""
+
+#: themes/admin/userDelete.php:88
+msgid "Warning: if you delete the user, following records will also be deleted :"
+msgstr ""
+
+#: themes/admin/userDelete.php:90
+#, php-format
+msgid "\"%d\" auctions,\"%d\" bids,\"%d\" invoices and \"%d\" feedbacks."
+msgstr ""
+
+#: themes/admin/userDelete.php:93
+msgid "This action can not be undone"
+msgstr ""
+
+#: themes/admin/userFeedbacks.php:8
+#, php-format
+msgid "%s Feedbacks"
+msgstr ""
+
+#: themes/admin/userFeedbacks.php:14
+msgid "Back to user management"
+msgstr ""
+
+#: themes/admin/userFeedbacks.php:21
+#: themes/admin/userFeedbacks.php:69
+#: themes/admin/userList.php:127
+msgid "Feedback"
+msgstr ""
+
+#: themes/admin/userFeedbacks.php:23
+#: themes/admin/userFeedbacks.php:71
+msgid "Auction"
+msgstr ""
+
+#: themes/admin/userFeedbacks.php:25
+#: themes/admin/userFeedbacks.php:73
+#: themes/admin/userIP.php:29
+msgid "Date"
+msgstr ""
+
+#: themes/admin/userFeedbacks.php:35
+#: themes/admin/userFeedbacks.php:84
+msgid "Positive"
+msgstr ""
+
+#: themes/admin/userFeedbacks.php:36
+#: themes/admin/userFeedbacks.php:85
+msgid "Neutral"
+msgstr ""
+
+#: themes/admin/userFeedbacks.php:37
+#: themes/admin/userFeedbacks.php:86
+msgid "Negative"
+msgstr ""
+
+#: themes/admin/userFeedbacks.php:57
+msgid "No feedbacks received"
+msgstr ""
+
+#: themes/admin/userFeedbacks.php:106
+msgid "No feedbacks left"
+msgstr ""
+
+#: themes/admin/userForm.php:18
+msgid "Edit data"
+msgstr ""
+
+#: themes/admin/userForm.php:22
+msgid "Access info"
+msgstr ""
+
+#: themes/admin/userForm.php:24
+msgid "Username"
+msgstr ""
+
+#: themes/admin/userForm.php:27
+msgid "(min 5 chars)"
+msgstr ""
+
+#: themes/admin/userForm.php:37
+msgid "If you want to change your password, please fill in the two fields below. Otherwise leave them blank."
+msgstr ""
+
+#: themes/admin/userForm.php:45
+msgid "Please, repeat password"
+msgstr ""
+
+#: themes/admin/userForm.php:52
+msgid "Your e-mail address"
+msgstr ""
+
+#: themes/admin/userForm.php:57
+msgid "Language for mails"
+msgstr ""
+
+#: themes/admin/userForm.php:71
+msgid "Birthdate"
+msgstr ""
+
+#: themes/admin/userForm.php:79
+msgid "Mail info"
+msgstr ""
+
+#: themes/admin/userForm.php:81
+msgid "Your name"
+msgstr ""
+
+#: themes/admin/userForm.php:112
+msgid "Choose a country"
+msgstr ""
+
+#: themes/admin/userForm.php:126
+#: themes/admin/userForm.php:128
+msgid "Bids remaining"
+msgstr ""
+
+#: themes/admin/userForm.php:133
+msgid "Account types"
+msgstr ""
+
+#: themes/admin/userForm.php:138
+msgid "User type"
+msgstr ""
+
+#: themes/admin/userForm.php:141
+msgid "Seller + Buyer"
+msgstr ""
+
+#: themes/admin/userForm.php:144
+#: themes/admin/userList.php:124
+msgid "Buyer"
+msgstr ""
+
+#: themes/admin/userForm.php:147
+#: themes/admin/userList.php:136
+msgid "Trust user"
+msgstr ""
+
+#: themes/admin/userForm.php:181
+msgid "Register"
+msgstr ""
+
+#: themes/admin/userForm.php:181
+msgid "Save changes"
+msgstr ""
+
+#: themes/admin/userIP.php:14
+msgid "Search Users"
+msgstr ""
+
+#: themes/admin/userIP.php:17
+#: themes/admin/userList.php:19
+msgid "Search"
+msgstr ""
+
+#: themes/admin/userIP.php:22
+msgid "IPs found in database for user"
+msgstr ""
+
+#: themes/admin/userIP.php:28
+msgid "IP Address"
+msgstr ""
+
+#: themes/admin/userIP.php:60
+msgid "Unblock IP"
+msgstr ""
+
+#: themes/admin/userIP.php:70
+msgid "Block IP"
+msgstr ""
+
+#: themes/admin/userIP.php:90
+msgid "No Record Found"
+msgstr ""
+
+#: themes/admin/userList.php:8
+msgid "Users Management"
+msgstr ""
+
+#: themes/admin/userList.php:12
+#, php-format
+msgid "%d users found in database"
+msgstr ""
+
+#: themes/admin/userList.php:32
+msgid "List"
+msgstr ""
+
+#: themes/admin/userList.php:66
+msgid "User"
+msgstr ""
+
+#: themes/admin/userList.php:68
+msgid "Account"
+msgstr ""
+
+#: themes/admin/userList.php:81
+msgid "Bids"
+msgstr ""
+
+#: themes/admin/userList.php:98
+msgid "Ban this email id"
+msgstr ""
+
+#: themes/admin/userList.php:105
+msgid "Banned email."
+msgstr ""
+
+#: themes/admin/userList.php:110
+msgid "Reg. Date"
+msgstr ""
+
+#: themes/admin/userList.php:120
+msgid "active"
+msgstr ""
+
+#: themes/admin/userList.php:121
+msgid "closed"
+msgstr ""
+
+#: themes/admin/userList.php:122
+msgid "drafts"
+msgstr ""
+
+#: themes/admin/userList.php:124
+msgid "Account type"
+msgstr ""
+
+#: themes/admin/userList.php:126
+msgid "IP"
+msgstr ""
+
+#: themes/admin/userList.php:131
+msgid "Trusted user status requested"
+msgstr ""
+
+#: themes/admin/userList.php:147
+#: themes/admin/userSuspend.php:83
+msgid "Suspend"
+msgstr ""
+
+#: themes/admin/userList.php:167
+msgid "No record found"
+msgstr ""
+
+#: themes/admin/userOffers.php:11
+msgid "Offers created by "
+msgstr ""
+
+#: themes/admin/userSignupConfirmation.php:7
+msgid "User Signup Confirmation"
+msgstr ""
+
+#: themes/admin/userSignupConfirmation.php:12
+msgid "Signup confirmation type"
+msgstr ""
+
+#: themes/admin/userSignupConfirmation.php:15
+msgid "Admin need to validate accounts"
+msgstr ""
+
+#: themes/admin/userSignupConfirmation.php:18
+msgid "Confirm through email"
+msgstr ""
+
+#: themes/admin/userSuspend.php:8
+msgid "Suspend User"
+msgstr ""
+
+#: themes/admin/userSuspend.php:11
+msgid "User Details"
+msgstr ""
+
+#: themes/admin/userSuspend.php:76
+msgid ""
+"Once you suspend this account, all active auctions will end without winner &amp; the\n"
+"                bids submitted to any active auction by this user will be removed"
+msgstr ""
+
+#: themes/admin/userSuspend.php:81
+msgid "Are you sure you want to suspend this account?"
+msgstr ""
+
+#: themes/default/accountActivated.php:3
+msgid "Invalid user id specified"
+msgstr ""
+
+#: themes/default/accountActivated.php:3
+msgid "Membership activated"
+msgstr ""
+
+#: themes/default/accountActivated.php:7
+msgid "Invalid user id is specified as parameter."
+msgstr ""
+
+#: themes/default/accountActivated.php:8
+msgid "Please check the mail that you received or contact site administrator."
+msgstr ""
+
+#: themes/default/accountActivated.php:10
+msgid "Your account is active now. You can now login to your account."
+msgstr ""
+
+#: themes/default/accountActivated.php:11
+msgid "If you have any questions, please contact the site administrator."
+msgstr ""
+
+#: themes/default/bulkUpload.php:4
+#: themes/default/bulkUpload.php:22
+msgid "Bulk auctions upload"
+msgstr ""
+
+#: themes/default/bulkUpload.php:9
+msgid "Upload File"
+msgstr ""
+
+#: themes/default/bulkUpload.php:10
+msgid "Upload the file that contains auctions"
+msgstr ""
+
+#: themes/default/bulkUpload.php:15
+msgid "Accepted formats: TXT"
+msgstr ""
+
+#: themes/default/bulkUpload.php:16
+#, php-format
+msgid "Max allowed file size %d KB"
+msgstr ""
+
+#: themes/default/bulkUpload.php:17
+msgid "Please read the instructions and examples below to understand bulk upload"
+msgstr ""
+
+#: themes/default/bulkUpload.php:27
+msgid "Instructions for creating the text file"
+msgstr ""
+
+#: themes/default/bulkUpload.php:28
+msgid "Each line contains a single auction."
+msgstr ""
+
+#: themes/default/bulkUpload.php:29
+msgid "Each field is separated by a double # (hash) or TAB(\t) character, like: "
+msgstr ""
+
+#: themes/default/bulkUpload.php:30
+msgid "Auction 1##field 2## field 3 ..."
+msgstr ""
+
+#: themes/default/bulkUpload.php:32
+msgid "Each line should contain the following 15 fields:"
+msgstr ""
+
+#: themes/default/bulkUpload.php:34
+msgid "The title of the auction, up to 100 characters long"
+msgstr ""
+
+#: themes/default/bulkUpload.php:35
+msgid "Item description"
+msgstr ""
+
+#: themes/default/bulkUpload.php:35
+msgid "A description text"
+msgstr ""
+
+#: themes/default/bulkUpload.php:36
+msgid "The category name"
+msgstr ""
+
+#: themes/default/bulkUpload.php:37
+msgid "The price at which bidding starts"
+msgstr ""
+
+#: themes/default/bulkUpload.php:38
+msgid "1= Standard Auction, 2= Fixed, 3= Reverse, 4= Lot"
+msgstr ""
+
+#: themes/default/bulkUpload.php:39
+msgid "In case of Standard Auction... this field is ignored otherwise (but the field space should be present)"
+msgstr ""
+
+#: themes/default/bulkUpload.php:40
+msgid "Buy now price"
+msgstr ""
+
+#: themes/default/bulkUpload.php:40
+msgid "In case of Standard Auction... otherwise ignored"
+msgstr ""
+
+#: themes/default/bulkUpload.php:41
+msgid "In case of Lot... otherwise ignored"
+msgstr ""
+
+#: themes/default/bulkUpload.php:42
+msgid "Fixed bid increment, for Standard and Reverse. If it is set to 0, the default site increment system is used"
+msgstr ""
+
+#: themes/default/bulkUpload.php:43
+msgid "number of days"
+msgstr ""
+
+#: themes/default/bulkUpload.php:44
+msgid "Details about the shipping"
+msgstr ""
+
+#: themes/default/bulkUpload.php:45
+msgid "Shipment costs"
+msgstr ""
+
+#: themes/default/bulkUpload.php:45
+msgid "The price of the shipping"
+msgstr ""
+
+#: themes/default/bulkUpload.php:46
+msgid "1= Buyer pays, 2= Seller pays"
+msgstr ""
+
+#: themes/default/bulkUpload.php:47
+msgid "1= yes, 2= no"
+msgstr ""
+
+#: themes/default/bulkUpload.php:48
+msgid "Payment method "
+msgstr ""
+
+#: themes/default/bulkUpload.php:48
+msgid "PP= Paypal, GC= Google checkout"
+msgstr ""
+
+#: themes/default/bulkUpload.php:49
+msgid "Y= Yes, N= No"
+msgstr ""
+
+#: themes/default/bulkUpload.php:51
+msgid "Notice that all prices should be just numbers, without the currency sign"
+msgstr ""
+
+#: themes/default/bulkUpload.php:53
+msgid "Examples"
+msgstr ""
+
+#: themes/default/bulkUpload.php:55
+msgid "Standard"
+msgstr ""
+
+#: themes/default/bulkUpload.php:57
+msgid "Fixed"
+msgstr ""
+
+#: themes/default/bulkUpload.php:59
+msgid "Reverse"
+msgstr ""
+
+#: themes/default/bulkUpload.php:61
+msgid "Lot"
+msgstr ""
+
+#: themes/default/category.php:39
+#: themes/default/index.php:11
+#: themes/default/index2.php:53
+msgid "View all categories"
+msgstr ""
+
+#: themes/default/category.php:52
+msgid "Featured offers"
+msgstr ""
+
+#: themes/default/category.php:57
+#: themes/default/category.php:132
+#: themes/default/category.php:244
+msgid "Created by"
+msgstr ""
+
+#: themes/default/category.php:58
+#: themes/default/category.php:133
+#: themes/default/category.php:246
+msgid "Location"
+msgstr ""
+
+#: themes/default/category.php:59
+#: themes/default/index2.php:25
+msgid "Ending in"
+msgstr ""
+
+#: themes/default/category.php:60
+#: themes/default/category.php:135
+#: themes/default/category.php:248
+#: themes/default/index2.php:35
+#: themes/default/offerDetails.php:77
+msgid "Best bidder"
+msgstr ""
+
+#: themes/default/category.php:127
+#: themes/default/index.php:82
+#: themes/default/index.php:119
+#: themes/default/index2.php:6
+#, php-format
+msgid "Subscribe to %s"
+msgstr ""
+
+#: themes/default/category.php:238
+msgid "Offers in webstores"
+msgstr ""
+
+#: themes/default/customPage.php:9
+msgid "Last updated on"
+msgstr ""
+
+#: themes/default/feeSummary.php:3
+msgid "Active fees"
+msgstr ""
+
+#: themes/default/feeSummary.php:16
+#: themes/default/feeSummary.php:98
+#: themes/default/feeSummary.php:134
+#: themes/default/feeSummary.php:170
+msgid "Start"
+msgstr ""
+
+#: themes/default/feeSummary.php:17
+#: themes/default/feeSummary.php:99
+#: themes/default/feeSummary.php:135
+#: themes/default/feeSummary.php:171
+msgid "End"
+msgstr ""
+
+#: themes/default/feeSummary.php:18
+#: themes/default/feeSummary.php:100
+#: themes/default/feeSummary.php:136
+#: themes/default/feeSummary.php:172
+msgid "Fixed charge"
+msgstr ""
+
+#: themes/default/feeSummary.php:19
+#: themes/default/feeSummary.php:101
+#: themes/default/feeSummary.php:137
+#: themes/default/feeSummary.php:173
+msgid "Percent charge"
+msgstr ""
+
+#: themes/default/feeSummary.php:20
+msgid "applied to Start Price"
+msgstr ""
+
+#: themes/default/feeSummary.php:39
+#: themes/default/feeSummary.php:121
+#: themes/default/feeSummary.php:157
+#: themes/default/feeSummary.php:193
+msgid "No ranges defined"
+msgstr ""
+
+#: themes/default/feeSummary.php:52
+#: themes/default/feeSummary.php:75
+#: themes/default/feeSummary.php:206
+#: themes/default/feeSummary.php:229
+#: themes/default/feeSummary.php:252
+#: themes/default/feeSummary.php:278
+#: themes/default/feeSummary.php:300
+#: themes/default/feeSummary.php:323
+#: themes/default/feeSummary.php:347
+#: themes/default/feeSummary.php:372
+msgid "Charge"
+msgstr ""
+
+#: themes/default/feeSummary.php:102
+msgid "applied to Final Price"
+msgstr ""
+
+#: themes/default/feeSummary.php:138
+msgid "applied to Reserve Price"
+msgstr ""
+
+#: themes/default/feeSummary.php:174
+msgid "applied to Buy Now Price"
+msgstr ""
+
+#: themes/default/feeSummary.php:275
+#: themes/default/feeSummary.php:297
+msgid "User fee"
+msgstr ""
+
+#: themes/default/feeSummary.php:320
+#: themes/default/feeSummary.php:369
+msgid "Store fee"
+msgstr ""
+
+#: themes/default/feeSummary.php:343
+msgid "Store"
+msgstr ""
+
+#: themes/default/feeSummary.php:346
+msgid "Size"
+msgstr ""
+
+#: themes/default/feeSummary.php:396
+msgid "Bid packs for penny auctions"
+msgstr ""
+
+#: themes/default/feeSummary.php:399
+msgid "Amount"
+msgstr ""
+
+#: themes/default/feeSummary.php:400
+#: themes/default/index2.php:31
+msgid "Price"
+msgstr ""
+
+#: themes/default/feeSummary.php:407
+msgid "bids"
+msgstr ""
+
+#: themes/default/feeSummary.php:410
+msgid "Buy now!"
+msgstr ""
+
+#: themes/default/footer.php:3
+#: themes/default/header.php:176
+msgid "Home"
+msgstr "Startseite"
+
+#: themes/default/footer.php:6
+#: themes/default/header.php:179
+msgid "Sell"
+msgstr "Verkaufen"
+
+#: themes/default/footer.php:9
+#: themes/default/header.php:162
+msgid "My profile"
+msgstr ""
+
+#: themes/default/footer.php:10
+#: themes/default/header.php:168
+msgid "Logout"
+msgstr ""
+
+#: themes/default/footer.php:12
+#: themes/default/header.php:146
+msgid "Register now"
+msgstr ""
+
+#: themes/default/footer.php:13
+#: themes/default/header.php:144
+#: themes/default/header.php:154
+msgid "Login"
+msgstr ""
+
+#: themes/default/footer.php:16
+#: themes/default/header.php:182
+msgid "Message boards"
+msgstr ""
+
+#: themes/default/footer.php:19
+msgid "Fee Summary"
+msgstr ""
+
+#: themes/default/footer.php:22
+msgid "Currency converter"
+msgstr ""
+
+#: themes/default/header.php:94
+msgid "auctions"
+msgstr ""
+
+#: themes/default/header.php:94
+msgid "registered users"
+msgstr ""
+
+#: themes/default/header.php:136
+#: themes/default/header.php:153
+msgid "User login"
+msgstr ""
+
+#: themes/default/header.php:143
+msgid "Forgot your password?"
+msgstr ""
+
+#: themes/default/header.php:164
+#: themes/default/messageList.php:3
+msgid "My messages"
+msgstr ""
+
+#: themes/default/header.php:164
+msgid "unread"
+msgstr ""
+
+#: themes/default/header.php:166
+msgid "Admin backend"
+msgstr ""
+
+#: themes/default/header.php:188
+msgid "Webstores"
+msgstr ""
+
+#: themes/default/index.php:16
+msgid "Best bids"
+msgstr ""
+
+#: themes/default/index.php:34
+msgid "Featured Offers"
+msgstr ""
+
+#: themes/default/index.php:104
+msgid "Created"
+msgstr ""
+
+#: themes/default/index.php:119
+#: themes/default/index2.php:6
+msgid "Next ending!"
+msgstr ""
+
+#: themes/default/messageAdd.php:4
+#: themes/default/messageList.php:10
+msgid "Compose message"
+msgstr ""
+
+#: themes/default/messageAdd.php:10
+msgid "To:"
+msgstr ""
+
+#: themes/default/messageAdd.php:16
+msgid "Subject:"
+msgstr ""
+
+#: themes/default/messageAdd.php:22
+msgid "Message:"
+msgstr ""
+
+#: themes/default/messageAdd.php:28
+msgid "Submit"
+msgstr ""
+
+#: themes/default/messageAdd.php:34
+#: themes/default/messageDelete.php:34
+#: themes/default/messageView.php:53
+msgid "Go back to the inbox"
+msgstr ""
+
+#: themes/default/messageDelete.php:3
+msgid "Delete messages"
+msgstr ""
+
+#: themes/default/messageDelete.php:12
+msgid "Are you sure you want to delete selected messages?"
+msgstr ""
+
+#: themes/default/messageDelete.php:13
+#, php-format
+msgid "You are going to delete %d message(s)"
+msgstr ""
+
+#: themes/default/messageList.php:8
+msgid "Inbox"
+msgstr ""
+
+#: themes/default/messageList.php:9
+msgid "Sent messages"
+msgstr ""
+
+#: themes/default/messageList.php:20
+msgid "Read"
+msgstr ""
+
+#: themes/default/messageList.php:21
+msgid "Unread"
+msgstr ""
+
+#: themes/default/messageView.php:31
+msgid "Reply"
+msgstr ""
+
+#: themes/default/messageView.php:46
+msgid "Are you sure you want to delete this message"
+msgstr ""
+
+#: themes/default/offerDelete.php:3
+msgid "Delete item"
+msgstr ""
+
+#: themes/default/offerDelete.php:9
+msgid "You are about to delete the item: "
+msgstr ""
+
+#: themes/default/offerDelete.php:10
+msgid "This action can not be undone, are you sure you want to proceed?"
+msgstr ""
+
+#: themes/default/offerDelete.php:12
+msgid "Yes, delete this item"
+msgstr ""
+
+#: themes/default/offerDelete.php:16
+msgid "Go back"
+msgstr ""
+
+#: themes/default/offerDetails.php:32
+#: themes/default/offerDetailsFixed.php:29
+msgid "Report Fraud"
+msgstr ""
+
+#: themes/default/offerDetails.php:42
+#: themes/default/offerDetailsFixed.php:38
+msgid "You won this article, congratulations!"
+msgstr ""
+
+#: themes/default/offerDetails.php:42
+#: themes/default/offerDetailsFixed.php:38
+msgid "Pay now"
+msgstr ""
+
+#: themes/default/offerDetails.php:64
+#: themes/default/offerDetailsFixed.php:59
+msgid "Seller location"
+msgstr ""
+
+#: themes/default/offerDetails.php:66
+#: themes/default/offerDetailsFixed.php:61
+msgid "Ends within"
+msgstr ""
+
+#: themes/default/offerDetails.php:71
+#: themes/default/offerDetailsFixed.php:66
+msgid "This auction is closed"
+msgstr ""
+
+#: themes/default/offerDetails.php:89
+msgid "Starting bid"
+msgstr ""
+
+#: themes/default/offerDetails.php:93
+msgid "Best bid"
+msgstr ""
+
+#: themes/default/offerDetails.php:95
+msgid "# of bids"
+msgstr ""
+
+#: themes/default/offerDetails.php:96
+msgid "View history"
+msgstr ""
+
+#: themes/default/offerDetails.php:102
+msgid "Bidder"
+msgstr ""
+
+#: themes/default/offerDetails.php:104
+msgid "Date and hour"
+msgstr ""
+
+#: themes/default/offerDetails.php:122
+#: themes/default/offerDetails.php:126
+msgid "Buy Now"
+msgstr ""
+
+#: themes/default/offerDetails.php:153
+#: themes/default/offerDetails.php:230
+#: themes/default/offerDetailsFixed.php:124
+#: themes/default/offerDetailsFixed.php:202
+msgid "Questions and answers of this item"
+msgstr ""
+
+#: themes/default/offerDetails.php:154
+#: themes/default/offerDetails.php:313
+#: themes/default/offerDetailsFixed.php:125
+#: themes/default/offerDetailsFixed.php:285
+msgid "Shipping and Payment"
+msgstr ""
+
+#: themes/default/offerDetails.php:213
+#: themes/default/offerDetailsFixed.php:184
+msgid "Youtube Video"
+msgstr ""
+
+#: themes/default/offerDetails.php:239
+#: themes/default/offerDetails.php:260
+#: themes/default/offerDetails.php:291
+#: themes/default/offerDetailsFixed.php:211
+#: themes/default/offerDetailsFixed.php:232
+#: themes/default/offerDetailsFixed.php:263
+msgid "Question:"
+msgstr ""
+
+#: themes/default/offerDetails.php:240
+#: themes/default/offerDetails.php:261
+#: themes/default/offerDetailsFixed.php:212
+#: themes/default/offerDetailsFixed.php:233
+msgid "Posted by "
+msgstr ""
+
+#: themes/default/offerDetails.php:244
+#: themes/default/offerDetails.php:249
+#: themes/default/offerDetails.php:263
+#: themes/default/offerDetailsFixed.php:216
+#: themes/default/offerDetailsFixed.php:221
+#: themes/default/offerDetailsFixed.php:235
+msgid "Answer:"
+msgstr ""
+
+#: themes/default/offerDetails.php:249
+#: themes/default/offerDetailsFixed.php:221
+msgid "Not answered yet"
+msgstr ""
+
+#: themes/default/offerDetails.php:272
+#: themes/default/offerDetailsFixed.php:244
+msgid "Answer this question"
+msgstr ""
+
+#: themes/default/offerDetails.php:298
+#: themes/default/offerDetailsFixed.php:270
+msgid "Ask"
+msgstr ""
+
+#: themes/default/offerDetails.php:304
+#: themes/default/offerDetailsFixed.php:276
+msgid "There aren't questions yet"
+msgstr ""
+
+#: themes/default/offerDetails.php:315
+#: themes/default/offerDetailsFixed.php:287
+msgid "Item location"
+msgstr ""
+
+#: themes/default/offerDetails.php:319
+#: themes/default/offerDetailsFixed.php:292
+msgid "Shipment fee"
+msgstr ""
+
+#: themes/default/offerDetails.php:333
+#: themes/default/offerDetailsFixed.php:303
+msgid "Shipment terms"
+msgstr ""
+
+#: themes/default/offerDetails.php:350
+#: themes/default/offerDetailsFixed.php:326
+msgid "Page view"
+msgstr ""
+
+#: themes/default/offerDetailsFixed.php:69
+#: themes/default/offerDetailsFixed.php:103
+msgid "Fixed price"
+msgstr ""
+
+#: themes/default/offerDetailsFixed.php:82
+msgid "Meet the seller"
+msgstr ""
+
+#: themes/default/offerDetailsFixed.php:85
+msgid "Feedback times "
+msgstr ""
+
+#: themes/default/offerDetailsFixed.php:85
+msgid "times"
+msgstr ""
+
+#: themes/default/offerDetailsFixed.php:87
+msgid "Positive: "
+msgstr ""
+
+#: themes/default/offerDetailsFixed.php:88
+msgid "Neutral: "
+msgstr ""
+
+#: themes/default/offerDetailsFixed.php:89
+msgid "Negative: "
+msgstr ""
+
+#: themes/default/offerDetailsFixed.php:92
+msgid "View active auctions"
+msgstr ""
+
+#: themes/default/offerDetailsFixed.php:96
+msgid "View webstore"
+msgstr ""
+
+#: themes/default/offerDetailsHeader.php:28
+#: themes/default/offerDetailsHeader.php:29
+msgid "Remove it from my favourites"
+msgstr ""
+
+#: themes/default/offerDetailsHeader.php:32
+#: themes/default/offerDetailsHeader.php:33
+msgid "Make this my favourite"
+msgstr ""
+
+#: themes/default/offerDetailsHeader.php:42
+msgid "DRAFT (not published yet)"
+msgstr ""
+
+#: themes/default/offerDetailsHeader.php:44
+msgid "You can still make changes to your auction"
+msgstr ""
+
+#: themes/default/offerDetailsHeader.php:47
+msgid "Copy auction as new draft"
+msgstr ""
+
+#: themes/default/offerDetailsLot.php:75
+msgid "Latest buyer"
+msgstr ""
+
+#: themes/default/offerDetailsLot.php:99
+msgid "Quantity bought"
+msgstr ""
+
+#: themes/default/offerDetailsPenny.php:86
+#: themes/default/offerDetailsStandard.php:86
+#, php-format
+msgid "Your real bid is %s"
+msgstr ""
+
+#: themes/default/offerDetailsReverse.php:88
+#: themes/default/offerDetailsReverse.php:146
+#: themes/default/offerDetailsStandard.php:95
+#: themes/default/offerDetailsStandard.php:162
+msgid "Next bid"
+msgstr ""
+
+#: themes/default/offerDetailsReverse.php:102
+msgid "Bidder comment"
+msgstr ""
+
+#: themes/default/offerDetailsReverse.php:147
+msgid "Place your best bid here"
+msgstr ""
+
+#: themes/default/offerDetailsReverse.php:255
+msgid "Posted by"
+msgstr ""
+
+#: themes/default/offerDetailsStandard.php:163
+msgid "Place your maximum bid here"
+msgstr ""
+
+#: themes/default/offerForm.php:12
+msgid "Edit auction"
+msgstr ""
+
+#: themes/default/offerForm.php:12
+msgid "Sell an item"
+msgstr "Verkaufe einen Gegenstand"
+
+#: themes/default/offerForm.php:142
+#, php-format
+msgid "Maximum allowed file size %d kb."
+msgstr ""
+
+#: themes/default/offerForm.php:258
+msgid "Set as adult auction"
+msgstr ""
+
+#: themes/default/offerForm.php:408
+msgid "You can choose to automatically relist your auction, if no bids have been posted. Enter the number of times you want your auction to be relisted (enter zero or leave blank if you don't want the automatic relisting to be applied to this auction). Maximum number of allowed relistings: "
+msgstr ""
+
+#: themes/default/offerForm.php:433
+msgid "Shipping Methods"
+msgstr ""
+
+#: themes/default/offerForm.php:562
+msgid "Use voucher code"
+msgstr ""
+
+#: themes/default/offerForm.php:574
+msgid "Submit Auction"
+msgstr ""
+
+#: themes/default/offerWanted.php:9
+#: themes/default/offerWantedPenny.php:4
+#: themes/default/offerWantedReverse.php:4
+#: themes/default/offerWantedStandard.php:4
+msgid "Confirm your bid"
+msgstr ""
+
+#: themes/default/offerWanted.php:15
+#: themes/default/offerWantedFixed.php:4
+#: themes/default/offerWantedLot.php:4
+msgid "Confirm your purchase"
+msgstr ""
+
+#: themes/default/offerWanted.php:28
+#: themes/default/offerWantedPenny.php:8
+#: themes/default/offerWantedReverse.php:8
+#: themes/default/offerWantedStandard.php:8
+msgid "You are bidding on:"
+msgstr ""
+
+#: themes/default/offerWanted.php:31
+#: themes/default/offerWantedPenny.php:11
+#: themes/default/offerWantedReverse.php:11
+#: themes/default/offerWantedStandard.php:11
+msgid "Your bid:"
+msgstr ""
+
+#: themes/default/offerWanted.php:33
+#: themes/default/offerWantedStandard.php:13
+msgid "minimum"
+msgstr ""
+
+#: themes/default/offerWanted.php:39
+#: themes/default/offerWanted.php:49
+#: themes/default/offerWantedFixed.php:8
+#: themes/default/offerWantedLot.php:8
+msgid "You are purchasing:"
+msgstr ""
+
+#: themes/default/offerWanted.php:42
+#: themes/default/offerWanted.php:56
+#: themes/default/offerWantedFixed.php:11
+#: themes/default/offerWantedLot.php:15
+msgid "Purchase amount:"
+msgstr ""
+
+#: themes/default/offerWanted.php:53
+#: themes/default/offerWantedLot.php:12
+msgid "Quantity available:"
+msgstr ""
+
+#: themes/default/offerWanted.php:58
+#: themes/default/offerWantedLot.php:17
+msgid "each one"
+msgstr ""
+
+#: themes/default/offerWanted.php:88
+#: themes/default/offerWantedFixed.php:16
+#: themes/default/offerWantedLot.php:27
+#: themes/default/offerWantedPenny.php:16
+#: themes/default/offerWantedPenny.php:44
+#: themes/default/offerWantedReverse.php:23
+#: themes/default/offerWantedStandard.php:17
+msgid "Confirm"
+msgstr ""
+
+#: themes/default/offerWantedPenny.php:25
+msgid "Or you can also set an autobid:"
+msgstr ""
+
+#: themes/default/offerWantedPenny.php:27
+msgid "You want to bid up to"
+msgstr ""
+
+#: themes/default/offerWantedPenny.php:31
+msgid "You want to use up to"
+msgstr ""
+
+#: themes/default/offerWantedPenny.php:35
+msgid "Delay the autobid until the last seconds"
+msgstr ""
+
+#: themes/default/offerWantedPenny.php:40
+#, php-format
+msgid "Currently you have %d bids left"
+msgstr ""
+
+#: themes/default/offerWantedPenny.php:41
+msgid "You may want to increase your bid credit"
+msgstr ""
+
+#: themes/default/offerWantedReverse.php:13
+msgid "maximum"
+msgstr ""
+
+#: themes/default/search.php:12
+msgid "Keywords"
+msgstr ""
+
+#: themes/default/search.php:19
+msgid "Filter search result"
+msgstr ""
+
+#: themes/default/search.php:55
+msgid "Zip"
+msgstr ""
+
+#: themes/default/search.php:87
+#: themes/default/search.php:88
+msgid "Search Result"
+msgstr ""
+
+#: themes/default/search.php:91
+msgid "Item "
+msgstr ""
+
+#: themes/default/search.php:92
+msgid "Category "
+msgstr ""
+
+#: themes/default/search.php:96
+msgid "Ending"
+msgstr ""
+
+#: themes/default/search.php:161
+msgid "No offer could be found. Please try again"
+msgstr ""
+
+#: themes/default/search.php:217
+msgid "Offers in store"
+msgstr ""
+
+#: themes/default/search.php:218
+msgid "Store owner"
+msgstr ""
+
+#: themes/default/search.php:253
+msgid "No webstore found matching your query."
+msgstr ""
+
+#: themes/default/userBannedUsers.php:3
+msgid "Banned users list"
+msgstr ""
+
+#: themes/default/userBannedUsers.php:7
+msgid "Back to profile"
+msgstr ""
+
+#: themes/default/userBannedUsers.php:11
+msgid "Add the users you do not want to view and bid on your auctions."
+msgstr ""
+
+#: themes/default/userBannedUsers.php:15
+msgid "Ban a user"
+msgstr ""
+
+#: themes/default/userBannedUsers.php:19
+msgid "User to ban"
+msgstr ""
+
+#: themes/default/userBannedUsers.php:23
+msgid "Enter id of the user you want to ban. The user id must be valid in order to ban."
+msgstr ""
+
+#: themes/default/userBannedUsers.php:27
+msgid "Ban user"
+msgstr ""
+
+#: themes/default/userBannedUsers.php:33
+msgid "Users in banned list"
+msgstr ""
+
+#: themes/default/userBannedUsers.php:36
+msgid "User id"
+msgstr ""
+
+#: themes/default/userBannedUsers.php:37
+msgid "Banned on date"
+msgstr ""
+
+#: themes/default/userBannedUsers.php:53
+msgid "Remove this user from list"
+msgstr ""
+
+#: themes/default/userBannedUsers.php:64
+msgid "No user in banned list"
+msgstr ""
+
+#: themes/default/userBids.php:3
+#: themes/default/userBids.php:17
+#: themes/default/userClosedOffers.php:3
+#: themes/default/userDraftOffers.php:3
+#: themes/default/userFavourites.php:17
+#: themes/default/userLeftFeedback.php:3
+#: themes/default/userLeftFeedback.php:14
+#: themes/default/userMenu.php:4
+#: themes/default/userProfile.php:17
+msgid "User's profile"
+msgstr ""
+
+#: themes/default/userBids.php:30
+msgid "Value"
+msgstr ""
+
+#: themes/default/userChangeWinner.php:3
+msgid "Your sells"
+msgstr ""
+
+#: themes/default/userChangeWinner.php:6
+msgid "Back to sold items page"
+msgstr ""
+
+#: themes/default/userChangeWinner.php:12
+msgid "Current Winner"
+msgstr ""
+
+#: themes/default/userChangeWinner.php:14
+msgid "Bids for this auction"
+msgstr ""
+
+#: themes/default/userChangeWinner.php:24
+msgid "Reason to change"
+msgstr ""
+
+#: themes/default/userChangeWinner.php:30
+msgid "Change winner"
+msgstr ""
+
+#: themes/default/userClosedOffers.php:34
+msgid "Closed Auctions"
+msgstr ""
+
+#: themes/default/userClosedOffers.php:38
+#: themes/default/userProfile.php:135
+msgid "Starting on"
+msgstr ""
+
+#: themes/default/userClosedOffers.php:41
+msgid "Winner"
+msgstr ""
+
+#: themes/default/userClosedOffers.php:77
+msgid "Are you sure that you want to relist this auction?"
+msgstr ""
+
+#: themes/default/userClosedOffers.php:77
+msgid "Relist"
+msgstr ""
+
+#: themes/default/userConfirm.php:5
+msgid "Thanks for registering!"
+msgstr ""
+
+#: themes/default/userDraftOffers.php:37
+msgid "Draft Auctions"
+msgstr ""
+
+#: themes/default/userDraftOffers.php:69
+msgid "Activate auction"
+msgstr ""
+
+#: themes/default/userDraftOffers.php:75
+msgid "Delete auction"
+msgstr ""
+
+#: themes/default/userFavourites.php:3
+msgid "My Favourites"
+msgstr ""
+
+#: themes/default/userFavourites.php:26
+msgid "Favourites"
+msgstr ""
+
+#: themes/default/userFavourites.php:30
+msgid "Current Price"
+msgstr ""
+
+#: themes/default/userFavourites.php:33
+msgid "Favourited from"
+msgstr ""
+
+#: themes/default/userForm.php:161
+msgid "Request for trust user status"
+msgstr ""
+
+#: themes/default/userForm.php:183
+msgid "Security code"
+msgstr ""
+
+#: themes/default/userForm.php:203
+msgid "By registering you agree to the "
+msgstr ""
+
+#: themes/default/userForm.php:203
+msgid "terms of this site."
+msgstr ""
+
+#: themes/default/userForm.php:207
+msgid "By registering you agree to the terms of this site."
+msgstr ""
+
+#: themes/default/userForm.php:224
+#, php-format
+msgid "The site require you to pay %s sign up fee to use the services."
+msgstr ""
+
+#: themes/default/userKeywords.php:11
+msgid "You will receive a notification email when someone creates an auction that contains any of your keywords."
+msgstr ""
+
+#: themes/default/userKeywords.php:15
+msgid "Add new Keywords"
+msgstr ""
+
+#: themes/default/userKeywords.php:23
+msgid "Enter keywords separated by comma. For example : "
+msgstr ""
+
+#: themes/default/userKeywords.php:24
+msgid "camera, digital camera, television"
+msgstr ""
+
+#: themes/default/userKeywords.php:28
+msgid "Add new keywords"
+msgstr ""
+
+#: themes/default/userKeywords.php:32
+msgid "Keywords under watch"
+msgstr ""
+
+#: themes/default/userKeywords.php:49
+msgid "No keyword under watch"
+msgstr ""
+
+#: themes/default/userLeftFeedback.php:60
+msgid "Submit feedback"
+msgstr ""
+
+#: themes/default/userLeftFeedback.php:103
+msgid "Re-send my feedback"
+msgstr ""
+
+#: themes/default/userList.php:8
+msgid "All countries"
+msgstr ""
+
+#: themes/default/userList.php:19
+msgid "User list"
+msgstr ""
+
+#: themes/default/userList.php:23
+#: themes/default/userProfile.php:35
+msgid "Prestige"
+msgstr ""
+
+#: themes/default/userLogout.php:3
+msgid "Logged out"
+msgstr ""
+
+#: themes/default/userLogout.php:7
+msgid "Thanks for visiting our site, see you soon!"
+msgstr ""
+
+#: themes/default/userMenu.php:5
+msgid "Edit your personal profile"
+msgstr ""
+
+#: themes/default/userMenu.php:8
+msgid "Message center"
+msgstr ""
+
+#: themes/default/userMenu.php:13
+msgid "My payment settings"
+msgstr ""
+
+#: themes/default/userMenu.php:16
+msgid "Due fees"
+msgstr ""
+
+#: themes/default/userMenu.php:21
+msgid "My keywords"
+msgstr ""
+
+#: themes/default/userMenu.php:28
+msgid "Selling"
+msgstr ""
+
+#: themes/default/userMenu.php:32
+msgid "Draft auctions"
+msgstr ""
+
+#: themes/default/userMenu.php:44
+msgid "Open a webstore"
+msgstr ""
+
+#: themes/default/userMenu.php:46
+msgid "Go to my store"
+msgstr ""
+
+#: themes/default/userMenu.php:47
+msgid "Edit my store"
+msgstr ""
+
+#: themes/default/userMenu.php:48
+msgid "Close my webstore"
+msgstr ""
+
+#: themes/default/userMenu.php:56
+msgid "Buying"
+msgstr ""
+
+#: themes/default/userMenu.php:61
+msgid "Increase your bid credit"
+msgstr ""
+
+#: themes/default/userMenu.php:76
+msgid "Banned Users"
+msgstr ""
+
+#: themes/default/userMenu.php:84
+msgid "Contact user"
+msgstr ""
+
+#: themes/default/userMenu.php:85
+msgid "Send a message"
+msgstr ""
+
+#: themes/default/userNotAllowedToSell.php:3
+msgid "No seller privilege"
+msgstr ""
+
+#: themes/default/userNotAllowedToSell.php:7
+msgid "You are currently not allowed to sell on this site."
+msgstr ""
+
+#: themes/default/userNotAllowedToSell.php:8
+msgid "You can contact administrator and ask for seller privilege."
+msgstr ""
+
+#: themes/default/userNotAllowedToSell.php:9
+msgid "Contact administrator"
+msgstr ""
+
+#: themes/default/userPayMethodForm.php:3
+msgid "Your payment gateway details for accepting payments"
+msgstr ""
+
+#: themes/default/userPayMethodForm.php:16
+msgid "Payment Id"
+msgstr ""
+
+#: themes/default/userPayMethodForm.php:26
+msgid "Google Merchant ID"
+msgstr ""
+
+#: themes/default/userPayMethodForm.php:31
+msgid "Google Merchant Key"
+msgstr ""
+
+#: themes/default/userPayMethodForm.php:41
+msgid "Access key"
+msgstr ""
+
+#: themes/default/userPayMethodForm.php:46
+#: themes/default/userPayMethodForm.php:61
+msgid "Secret key"
+msgstr ""
+
+#: themes/default/userPayMethodForm.php:56
+msgid "2Checkout seller id"
+msgstr ""
+
+#: themes/default/userPayMethodForm.php:70
+msgid "Authorize.net API login id"
+msgstr ""
+
+#: themes/default/userPayMethodForm.php:75
+msgid "Authorize.net transaction key"
+msgstr ""
+
+#: themes/default/userPayMethodForm.php:111
+msgid "Go back to My profile"
+msgstr ""
+
+#: themes/default/userProfile.php:28
+#: themes/default/userProfile.php:29
+msgid "Trusted user"
+msgstr ""
+
+#: themes/default/userProfile.php:61
+#, php-format
+msgid "Last %d bids"
+msgstr ""
+
+#: themes/default/userProfile.php:77
+#, php-format
+msgid "Last %d won"
+msgstr ""
+
+#: themes/default/userProfile.php:94
+#, php-format
+msgid "Last %d listed"
+msgstr ""
+
+#: themes/default/userProfile.php:110
+#, php-format
+msgid "Last %d sold"
+msgstr ""
+
+#: themes/default/userProfile.php:131
+msgid "Open Auctions"
+msgstr ""
+
+#: themes/default/userProfile.php:138
+msgid "Highest Bidder"
+msgstr ""
+
+#: themes/default/userProfile.php:177
+msgid "Are you sure that you want to finish this auction?"
+msgstr ""
+
+#: themes/default/userProfile.php:177
+msgid "Finish auction"
+msgstr ""
+
+#: themes/default/userRecoverPassword.php:5
+msgid "If you lost your password, please enter in your username below "
+msgstr ""
+
+#: themes/default/userRecoverPassword.php:15
+msgid "Send me a new password"
+msgstr ""
+
+#: themes/default/userSignupFeeAgree.php:5
+msgid "Thanks for confirming your mail!"
+msgstr ""
+
+#: themes/default/userSignupFeeAgree.php:6
+msgid "To complete the sign up process you will be charged with a fee of "
+msgstr ""
+
+#: themes/default/userSignupFeeAgree.php:17
+msgid "Agree!"
+msgstr ""
+
+#: themes/default/userSoldItems.php:3
+msgid "Your sales"
+msgstr ""
+
+#: themes/default/userSoldItems.php:11
+msgid "Show sold items"
+msgstr ""
+
+#: themes/default/userSoldItems.php:12
+msgid "Items sold from webstore"
+msgstr ""
+
+#: themes/default/userSoldItems.php:13
+msgid "Show items bought by"
+msgstr ""
+
+#: themes/default/userSoldItems.php:49
+msgid "Final value"
+msgstr ""
+
+#: themes/default/userSoldItems.php:51
+msgid "Shipping chosen by buyer"
+msgstr ""
+
+#: themes/default/userSoldItems.php:52
+msgid "In webstore"
+msgstr ""
+
+#: themes/default/userSoldItems.php:93
+msgid "Paid by buyer"
+msgstr ""
+
+#: themes/default/userSoldItems.php:93
+msgid "Not paid by buyer"
+msgstr ""
+
+#: themes/default/userSoldItems.php:96
+msgid "Payment verified"
+msgstr ""
+
+#: themes/default/userSoldItems.php:101
+msgid "Payment received"
+msgstr ""
+
+#: themes/default/userSoldItems.php:109
+#: themes/default/userSoldItems.php:114
+msgid "Parcel sent"
+msgstr ""
+
+#: themes/default/userSoldItems.php:119
+msgid "Parcel received by buyer"
+msgstr ""
+
+#: themes/default/userSoldItems.php:119
+msgid "Parcel not received by buyer"
+msgstr ""
+
+#: themes/default/userSoldItems.php:121
+#: themes/default/userWonAuctions.php:113
+msgid "Update Status"
+msgstr ""
+
+#: themes/default/userWelcome.php:3
+msgid "Thanks for your registration"
+msgstr ""
+
+#: themes/default/userWelcome.php:7
+msgid "The last step for your registration is confirming your email address."
+msgstr ""
+
+#: themes/default/userWelcome.php:8
+msgid "We have just sent you a confirmation email. Click on the confirmation link in the email to complete your sign up."
+msgstr ""
+
+#: themes/default/userWonAuctions.php:27
+msgid "Auctions won"
+msgstr ""
+
+#: themes/default/userWonAuctions.php:32
+msgid "Total Amount"
+msgstr ""
+
+#: themes/default/userWonAuctions.php:35
+msgid "Pay"
+msgstr ""
+
+#: themes/default/userWonAuctions.php:71
+msgid "Update Shipping"
+msgstr ""
+
+#: themes/default/userWonAuctions.php:75
+msgid "No shipping price"
+msgstr ""
+
+#: themes/default/userWonAuctions.php:86
+#: themes/default/userWonAuctions.php:91
+msgid "Paid"
+msgstr ""
+
+#: themes/default/userWonAuctions.php:97
+msgid "Payment verified by seller"
+msgstr ""
+
+#: themes/default/userWonAuctions.php:97
+msgid "Payment not verified by seller"
+msgstr ""
+
+#: themes/default/userWonAuctions.php:99
+msgid "Parcel sent by seller"
+msgstr ""
+
+#: themes/default/userWonAuctions.php:99
+msgid "Parcel not sent by seller"
+msgstr ""
+
+#: themes/default/userWonAuctions.php:102
+#: themes/default/userWonAuctions.php:107
+msgid "Parcel Received"
+msgstr ""
+
+#: themes/default/userWonAuctions.php:118
+msgid "No status"
+msgstr ""
+
+#: themes/default/userWonAuctions.php:137
+msgid "No payment details given by owner"
+msgstr ""
+
+#: themes/default/userWonAuctions.php:142
+msgid "Please contact with the auction's owner to discuss about the payment"
+msgstr ""
+
+#: themes/default/userWonAuctions.php:152
+msgid "No auctions found"
+msgstr ""
+
